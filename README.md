@@ -8,7 +8,7 @@ Next.js와 Spring Boot를 활용한 풀스택 개발에 열정을 가지고 있�
 
 ## 🚀 주요 프로젝트
 
-### 1. [개발자 커뮤니티 플랫폼](https://devcom.kr) 
+### 1. [개발자 커뮤니티 플랫폼](https://devcom.kr) 📌
 [![Next.js](https://img.shields.io/badge/Next.js-15.4.4-black?style=flat-square&logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat-square&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
@@ -39,15 +39,6 @@ Next.js와 Spring Boot를 활용한 풀스택 개발에 열정을 가지고 있�
 
 ---
 
-## 🎓 교육 & 자격
-
-### 프로그래머스 데브코스 백엔드 6기
-- **수료**: 2025년 10월 (예정)
-- **주요 학습**: Java, Spring Boot, JPA, REST API, MSA
-- **프로젝트**: 팀 프로젝트 3회, 개인 프로젝트 다수
-
----
-
 ## 🛠️ 기술 스택
 
 ### Frontend
@@ -71,6 +62,7 @@ Next.js와 Spring Boot를 활용한 풀스택 개발에 열정을 가지고 있�
 ### DevOps & Tools
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_Lightsail-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
@@ -85,15 +77,6 @@ Next.js와 Spring Boot를 활용한 풀스택 개발에 열정을 가지고 있�
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mrbaeksang&layout=compact&theme=radical)
 
 </div>
-
----
-
-## 🌱 성장 기록
-
-- **매일 TIL 작성**: 학습 내용을 체계적으로 정리하며 꾸준한 성장
-- **실무 프로젝트 운영**: devcom.kr 서비스 실제 운영 및 유지보수
-- **팀 협업**: 코드 리뷰 문화 정착 및 GitHub Flow 기반 협업
-- **기술 블로그**: 개발 과정에서 겪은 문제와 해결 과정 문서화
 
 ---
 
