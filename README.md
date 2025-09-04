@@ -53,41 +53,42 @@ Java/Kotlin 기반 백엔드 개발과 AI 통합에 열정을 가지고 있으�
 - Frontend 전체 개발 (Next.js 15, TypeScript)
 - OAuth 2.0 소셜 로그인 구현
 
+---
+
+## 🤝 오픈소스 기여 & 공익 활동
+
 ### 4. [Korea Stock Analyzer - MCP Server](https://github.com/modelcontextprotocol/servers) 🏆
 [![MCP](https://img.shields.io/badge/MCP-Official-blue?style=flat-square)](https://github.com/modelcontextprotocol/servers)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python)](https://python.org)
+[![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=flat-square)](https://opensource.org)
 
-**MCP 공식 서버 목록 정식 등재** (2025.08 ~ 2025.09)
+**MCP 공식 서버 목록 정식 등재 (오픈소스)** (2025.08 ~ 2025.09)
 - 📍 **공식 등재**: [MCP Servers Registry](https://github.com/modelcontextprotocol/servers)
 - 💻 **GitHub**: 한국 주식 시장 데이터 분석 서버
 - 🎯 **성과**: Anthropic MCP 생태계 기여자로 인정
+- 🌏 **기여**: 한국 주식 시장 데이터를 전 세계 개발자들이 활용 가능
 
 **주요 기능:**
 - 한국 주식 시장 실시간 데이터 분석
 - Claude와 통합하여 주식 정보 제공
 - 재무제표 분석 및 기술적 지표 계산
 
----
-
-## 🤝 오픈소스 기여 & 공익 활동
-
 ### 5. [Markdown Converter Korean](https://github.com/Mrbaeksang/md-converter-korean) 📝
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://javascript.com)
-[![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=flat-square)](https://opensource.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
-**한국어 마크다운 변환 도구** (오픈소스)
+**한국어 마크다운 변환 도구** (2025.07)
 - 🎯 **목적**: 한국 개발자들의 문서 작성 편의성 향상
-- 🌏 **기여**: 한글 특수문자 처리 및 한국어 포맷팅 최적화
-- 💡 **특징**: 무료 제공으로 개발자 커뮤니티에 기여
+- 💻 **기술**: TypeScript 기반 변환 엔진
+- 💡 **특징**: 한글 특수문자 처리 및 한국어 포맷팅 최적화
 
 ### 6. [My Site Template](https://github.com/Mrbaeksang/my-site-template) 🎨
 [![Next.js](https://img.shields.io/badge/Next.js-Template-black?style=flat-square)](https://nextjs.org)
-[![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
-**무료 웹사이트 템플릿** (오픈소스)
-- 🎯 **목적**: 초보 개발자들을 위한 시작 템플릿 제공
-- 🌏 **기여**: 완전 무료로 제공하여 진입 장벽 낮추기
-- 💡 **특징**: 한국어 주석과 가이드로 학습 지원
+**웹사이트 스타터 템플릿** (2025.06)
+- 🎯 **목적**: 빠른 프로젝트 시작을 위한 템플릿
+- 💻 **기술**: Next.js + TypeScript + Tailwind CSS
+- 💡 **특징**: 한국어 주석과 가이드 포함
 
 **"기술력뿐만 아니라 개발 커뮤니티 발전에도 기여하고자 합니다"** 🌱
 
