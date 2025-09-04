@@ -13,7 +13,7 @@ Java/Kotlin 기반 백엔드 개발과 AI 통합에 열정을 가지고 있으�
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.25-7F52FF?style=flat-square&logo=kotlin)](https://kotlinlang.org/)
 [![Tests](https://img.shields.io/badge/Tests-103%20Passed-success?style=flat-square)](https://github.com/Mrbaeksang/ai-counseling-app)
 
-**AI 기반 철학자/상담사 대화 시스템 백엔드** (2024.12 ~ 2025.01)
+**AI 기반 철학자/상담사 대화 시스템 백엔드** (2025.08 ~ 2025.09)
 - 💻 **GitHub**: [ai-counseling-app](https://github.com/Mrbaeksang/ai-counseling-app)
 - 📚 **API 문서**: Swagger UI로 전체 API 테스트 완료
 - ✅ **테스트**: 103개 테스트 케이스 100% 통과
@@ -30,7 +30,7 @@ Java/Kotlin 기반 백엔드 개발과 AI 통합에 열정을 가지고 있으�
 [![MCP](https://img.shields.io/badge/MCP-Official-blue?style=flat-square)](https://github.com/modelcontextprotocol/servers)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python)](https://python.org)
 
-**MCP 공식 서버 목록 정식 등재** (2024.12)
+**MCP 공식 서버 목록 정식 등재** (2025.08 ~ 2025.09)
 - 📍 **공식 등재**: [MCP Servers Registry](https://github.com/modelcontextprotocol/servers)
 - 💻 **GitHub**: 한국 주식 시장 데이터 분석 서버
 - 🎯 **성과**: Anthropic MCP 생태계 기여자로 인정
@@ -40,7 +40,19 @@ Java/Kotlin 기반 백엔드 개발과 AI 통합에 열정을 가지고 있으�
 - Claude와 통합하여 주식 정보 제공
 - 재무제표 분석 및 기술적 지표 계산
 
-### 3. [개발자 커뮤니티 플랫폼](https://devcom.kr) 📌
+### 3. [DevMatch - AI 개발팀 매칭 플랫폼](https://nbe-6-8-2-team08-vaug.vercel.app)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-brightgreen)](https://spring.io/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.4-black)](https://nextjs.org/)
+
+**프로그래머스 데브코스 팀 프로젝트** (2025.07 ~ 2025.08)
+- 🔗 **라이브 서비스**: [DevMatch](https://nbe-6-8-2-team08-vaug.vercel.app)
+- 💻 **GitHub**: [NBE6-8-2-Team08](https://github.com/Mrbaeksang/NBE6-8-2-Team08)
+
+**담당 역할:**
+- Frontend 전체 개발 (Next.js 15, TypeScript)
+- OAuth 2.0 소셜 로그인 구현
+
+### 4. [개발자 커뮤니티 플랫폼](https://devcom.kr) 📌
 [![Next.js](https://img.shields.io/badge/Next.js-15.4.4-black?style=flat-square&logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat-square&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
@@ -54,18 +66,6 @@ Java/Kotlin 기반 백엔드 개발과 AI 통합에 열정을 가지고 있으�
 - **AI Q&A 시스템**: OpenRouter 통합으로 자동 코딩 답변 생성
 - **이중 콘텐츠 구조**: 메인 사이트(승인제) + 커뮤니티(즉시 게시)
 - **엔터프라이즈 아키텍처**: 24개 데이터 모델, RBAC, Redis 캐싱
-
-### 4. [DevMatch - AI 개발팀 매칭 플랫폼](https://nbe-6-8-2-team08-vaug.vercel.app)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-brightgreen)](https://spring.io/)
-[![Next.js](https://img.shields.io/badge/Next.js-15.4-black)](https://nextjs.org/)
-
-**프로그래머스 데브코스 팀 프로젝트** (2025.07 ~ 2025.08)
-- 🔗 **라이브 서비스**: [DevMatch](https://nbe-6-8-2-team08-vaug.vercel.app)
-- 💻 **GitHub**: [NBE6-8-2-Team08](https://github.com/Mrbaeksang/NBE6-8-2-Team08)
-
-**담당 역할:**
-- Frontend 전체 개발 (Next.js 15, TypeScript)
-- OAuth 2.0 소셜 로그인 구현
 
 ---
 
