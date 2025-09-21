@@ -33,7 +33,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 
 **실제 운영 중인 개발자 커뮤니티 서비스** (2025.07 ~ 현재)
 - 🔗 **라이브 서비스**: [devcom.kr](https://devcom.kr)
-- 👥 **운영 현황**: 회원 600명, MAU 2만명
+- 👥 **운영 현황**: 회원 900명, MAU 2만명
 - 💻 **GitHub**: [developers_community](https://github.com/Mrbaeksang/developers_community)
 
 **주요 특징:**
