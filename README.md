@@ -1,6 +1,6 @@
 # 👋 안녕하세요! 풀스택 개발자 **백상현**입니다.
 
-> "**실무 경험**과 **지속적인 성장**을 통해 문제를 해결하는 개발자"
+> "**성능 개선**과 **시스템 안정성**을 중시하며, 문제를 해결하는 Kotlin/Spring Boot 기반 풀스택 개발자"
 
 Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으며, 실제 서비스 운영 경험을 바탕으로 성장하고 있습니다.
 
@@ -19,8 +19,10 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 - 📚 **문서**: [SRS](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/SRS.md) · [Architecture](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/system-architecture.md) · [ERD](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/erd-diagram.md) · [API Spec](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/api-specification.yaml)
 
 **핵심 성취:**
+- **구글 플레이스토어 비공개 테스트 진행 중** (마인드톡 - AI 철학 상담 앱)
 - **Spring AI + OpenRouter 통합**: ChatClient를 통한 JSON 스키마 응답 강제 및 fallback 메시지 처리
 - **Redis 캐싱 전략**: 캐릭터/세션 페이지, OAuth/Refresh 토큰 TTL 분리로 응답 시간 50% 단축
+- **성능 최적화**: 응답 시간 112ms→52ms (53% 단축), 초당 처리량 100→200 req/s (2배 향상)
 - **JWT 보안 워크플로**: Google/Kakao OAuth 통합, Refresh 토큰 회전 및 Redis Set 기반 세션 하이재킹 방지
 - **메시지 신고 시스템**: 세션 소유 검증 및 중복 차단으로 Play Store 심사 대응
 
@@ -41,6 +43,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 - 👥 **협업**: 프로그래머스 데브코스 5명 팀 프로젝트
 
 **핵심 특징:**
+- **기술 문제 해결**: Spring AI ChatMemory SQL 스키마 위치 파악, Jackson Kotlin 버그 해결 (@get:JsonProperty), buildconfig 플러그인으로 YAML→상수 변환, ktlint 도입으로 팀 코드 품질 향상
 - **Spring AI + 공공 데이터 통합**: OpenRouter API와 한국관광공사 Tour API, 기상청 Weather API 연동으로 실시간 여행 정보 제공
 - **삼중 OAuth 인증**: Google/Kakao/Naver 소셜 로그인 통합 및 역할 기반 접근 제어
 - **실시간 채팅**: WebSocket(STOMP) 기반 게스트-가이드 1:1 채팅 시스템
@@ -174,8 +177,6 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 <div align="center">
   
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mrbaeksang&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mrbaeksang&layout=compact&theme=radical)
 
 </div>
 
