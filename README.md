@@ -57,6 +57,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 **담당 역할:**
 - Frontend 전체 개발 (Next.js 15, TypeScript)
 - OAuth 2.0 소셜 로그인 구현
+- Analysis 도메인 개발
 
 ---
 
