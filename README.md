@@ -8,30 +8,35 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 
 ## 🚀 주요 프로젝트
 
-### 1. [AI 철학 상담 앱 - 백엔드](https://github.com/Mrbaeksang/ai-counseling-app) 🆕
+### 1. [AI 철학 상담 앱 - 백엔드](https://github.com/Mrbaeksang/ai-counseling-backend) 🆕
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.4-brightgreen?style=flat-square&logo=spring)](https://spring.io/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.25-7F52FF?style=flat-square&logo=kotlin)](https://kotlinlang.org/)
-[![Tests](https://img.shields.io/badge/Tests-103%20Passed-success?style=flat-square)](https://github.com/Mrbaeksang/ai-counseling-app)
+[![Spring AI](https://img.shields.io/badge/Spring%20AI-1.0.0--M6-13aa52?style=flat-square)](https://spring.io/projects/spring-ai)
+[![Tests](https://img.shields.io/badge/Tests-20%2B-blue?style=flat-square)](https://github.com/Mrbaeksang/ai-counseling-backend)
 
-**AI 기반 철학자/상담사 대화 시스템 백엔드** (2025.08 ~ 2025.09)
-- 💻 **GitHub**: [ai-counseling-app](https://github.com/Mrbaeksang/ai-counseling-app)
-- 📚 **API 문서**: Swagger UI로 전체 API 테스트 완료
-- ✅ **테스트**: 103개 테스트 케이스 100% 통과
+**Kotlin/Spring Boot 기반 AI 철학 상담 서비스**
+- 💻 **GitHub**: [ai-counseling-backend](https://github.com/Mrbaeksang/ai-counseling-backend)
+- 📚 **문서**: [SRS](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/SRS.md) · [Architecture](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/system-architecture.md) · [ERD](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/erd-diagram.md) · [API Spec](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/api-specification.yaml)
 
-**주요 특징:**
-- **Spring Boot 3.5 + Kotlin**: 최신 백엔드 기술 스택
-- **5단계 상담 프로세스**: AI가 자율적으로 상담 단계 전환
-- **OAuth 2.0 인증**: Google/Kakao/Naver 소셜 로그인
-- **OpenRouter API 통합**: meta-llama 모델로 AI 상담사 구현
-- **DDD 아키텍처**: 도메인 주도 설계로 깔끔한 구조
-- **100% 테스트 커버리지**: MockK 기반 단위/통합 테스트
+**핵심 성취:**
+- **Spring AI + OpenRouter 통합**: ChatClient를 통한 JSON 스키마 응답 강제 및 fallback 메시지 처리
+- **Redis 캐싱 전략**: 캐릭터/세션 페이지, OAuth/Refresh 토큰 TTL 분리로 응답 시간 50% 단축
+- **JWT 보안 워크플로**: Google/Kakao OAuth 통합, Refresh 토큰 회전 및 Redis Set 기반 세션 하이재킹 방지
+- **메시지 신고 시스템**: 세션 소유 검증 및 중복 차단으로 Play Store 심사 대응
+
+**기술 스택:**
+- Runtime: Kotlin 1.9.25 · Spring Boot 3.5.4 · Java 21
+- AI: Spring AI ChatClient · OpenRouter API
+- Data: Spring Data JPA · Kotlin JDSL · PostgreSQL 15 · Redis
+- Auth: JWT · Google/Kakao OAuth
+- Quality: ktlint · detekt · JUnit5 · MockK · 20+ 테스트
 
 ### 2. [개발자 커뮤니티 플랫폼](https://devcom.kr) 📌
 [![Next.js](https://img.shields.io/badge/Next.js-15.4.4-black?style=flat-square&logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat-square&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
 
-**실제 운영 중인 개발자 커뮤니티 서비스** (2025.07 ~ 현재)
+**실제 운영 중인 개발자 커뮤니티 서비스**
 - 🔗 **라이브 서비스**: [devcom.kr](https://devcom.kr)
 - 👥 **운영 현황**: 회원 900명, MAU 2만명
 - 💻 **GitHub**: [developers_community](https://github.com/Mrbaeksang/developers_community)
@@ -45,7 +50,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-brightgreen)](https://spring.io/)
 [![Next.js](https://img.shields.io/badge/Next.js-15.4-black)](https://nextjs.org/)
 
-**프로그래머스 데브코스 팀 프로젝트** (2025.07 ~ 2025.08)
+**프로그래머스 데브코스 팀 프로젝트**
 - 🔗 **라이브 서비스**: [DevMatch](https://nbe-6-8-2-team08-vaug.vercel.app)
 - 💻 **GitHub**: [NBE6-8-2-Team08](https://github.com/Mrbaeksang/NBE6-8-2-Team08)
 
@@ -62,7 +67,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python)](https://python.org)
 [![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=flat-square)](https://opensource.org)
 
-**MCP 공식 서버 목록 정식 등재 (오픈소스)** (2025.08 ~ 2025.09)
+**MCP 공식 서버 목록 정식 등재 (오픈소스)**
 - 📍 **공식 등재**: [MCP Servers Registry](https://github.com/modelcontextprotocol/servers)
 - 💻 **GitHub**: 한국 주식 시장 데이터 분석 서버
 - 🎯 **성과**: Anthropic MCP 생태계 기여자로 인정
@@ -76,7 +81,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 ### 5. [Markdown Converter Korean](https://github.com/Mrbaeksang/md-converter-korean) 📝
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
-**한국어 마크다운 변환 도구** (2025.07)
+**한국어 마크다운 변환 도구**
 - 🎯 **목적**: 한국 개발자들의 문서 작성 편의성 향상
 - 💻 **기술**: TypeScript 기반 변환 엔진
 - 💡 **특징**: 한글 특수문자 처리 및 한국어 포맷팅 최적화
@@ -85,7 +90,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 [![Next.js](https://img.shields.io/badge/Next.js-Template-black?style=flat-square)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
-**웹사이트 스타터 템플릿** (2025.06)
+**웹사이트 스타터 템플릿**
 - 🎯 **목적**: 빠른 프로젝트 시작을 위한 템플릿
 - 💻 **기술**: Next.js + TypeScript + Tailwind CSS
 - 💡 **특징**: 한국어 주석과 가이드 포함
@@ -137,7 +142,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 
 - **MCP 공식 서버 등재**: Anthropic의 Model Context Protocol 생태계 기여
 - **실 서비스 운영**: MAU 2만명 개발자 커뮤니티 플랫폼 운영
-- **103개 테스트 통과**: AI 상담 앱 백엔드 100% 테스트 커버리지
+- **Spring AI 통합**: OpenRouter API 연동 및 Redis 캐싱으로 응답 시간 50% 단축
 - **오픈소스 기여**: 한국 개발자 커뮤니티를 위한 무료 도구 제공
 - **프로그래머스 데브코스**: 백엔드 과정 수료 및 팀 프로젝트 완성
 
