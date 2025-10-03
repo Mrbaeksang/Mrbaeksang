@@ -31,14 +31,38 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 - Auth: JWT · Google/Kakao OAuth
 - Quality: ktlint · detekt · JUnit5 · MockK · 20+ 테스트
 
-### 2. [개발자 커뮤니티 플랫폼](https://devcom.kr) 📌
+### 2. [한국 여행 가이드 백엔드](https://github.com/Mrbaeksang/KoreaTravelGuide) 🆕
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.1-brightgreen?style=flat-square&logo=spring)](https://spring.io/)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9.25-7F52FF?style=flat-square&logo=kotlin)](https://kotlinlang.org/)
+[![Spring AI](https://img.shields.io/badge/Spring%20AI-1.1.0--M2-13aa52?style=flat-square)](https://spring.io/projects/spring-ai)
+
+**AI 기반 한국 여행 맞춤 가이드 서비스**
+- 💻 **GitHub**: [KoreaTravelGuide](https://github.com/Mrbaeksang/KoreaTravelGuide)
+- 👥 **협업**: 프로그래머스 데브코스 5명 팀 프로젝트
+
+**핵심 특징:**
+- **Spring AI + 공공 데이터 통합**: OpenRouter API와 한국관광공사 Tour API, 기상청 Weather API 연동으로 실시간 여행 정보 제공
+- **삼중 OAuth 인증**: Google/Kakao/Naver 소셜 로그인 통합 및 역할 기반 접근 제어
+- **실시간 채팅**: WebSocket(STOMP) 기반 게스트-가이드 1:1 채팅 시스템
+- **DDD 아키텍처**: 도메인 주도 설계로 깔끔한 코드 구조 유지
+- **Redis 캐싱**: Tour/Weather API 응답 캐싱으로 성능 최적화
+
+**기술 스택:**
+- Runtime: Kotlin 1.9.25 · Spring Boot 3.4.1 · Java 21
+- AI: Spring AI 1.1.0-M2 · OpenRouter · JDBC ChatMemory
+- Data: Spring Data JPA · PostgreSQL · Redis
+- Auth: JWT · Google/Kakao/Naver OAuth
+- Messaging: WebSocket · STOMP
+- Quality: ktlint · SpringDoc OpenAPI · Actuator
+
+### 3. [개발자 커뮤니티 플랫폼](https://devcom.kr) 📌
 [![Next.js](https://img.shields.io/badge/Next.js-15.4.4-black?style=flat-square&logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat-square&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
 
 **실제 운영 중인 개발자 커뮤니티 서비스**
 - 🔗 **라이브 서비스**: [devcom.kr](https://devcom.kr)
-- 👥 **운영 현황**: 회원 900명, MAU 2만명
+- 👥 **운영 현황**: 회원 900명, 최대 MAU 2만명
 - 💻 **GitHub**: [developers_community](https://github.com/Mrbaeksang/developers_community)
 
 **주요 특징:**
@@ -46,7 +70,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 - **이중 콘텐츠 구조**: 메인 사이트(승인제) + 커뮤니티(즉시 게시)
 - **엔터프라이즈 아키텍처**: 24개 데이터 모델, RBAC, Redis 캐싱
 
-### 3. [DevMatch - AI 개발팀 매칭 플랫폼](https://nbe-6-8-2-team08-vaug.vercel.app)
+### 4. [DevMatch - AI 개발팀 매칭 플랫폼](https://nbe-6-8-2-team08-vaug.vercel.app)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-brightgreen)](https://spring.io/)
 [![Next.js](https://img.shields.io/badge/Next.js-15.4-black)](https://nextjs.org/)
 
@@ -63,7 +87,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 
 ## 🤝 오픈소스 기여 & 공익 활동
 
-### 4. [Korea Stock Analyzer - MCP Server](https://github.com/modelcontextprotocol/servers) 🏆
+### 5. [Korea Stock Analyzer - MCP Server](https://github.com/modelcontextprotocol/servers) 🏆
 [![MCP](https://img.shields.io/badge/MCP-Official-blue?style=flat-square)](https://github.com/modelcontextprotocol/servers)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python)](https://python.org)
 [![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=flat-square)](https://opensource.org)
@@ -79,7 +103,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 - Claude와 통합하여 주식 정보 제공
 - 재무제표 분석 및 기술적 지표 계산
 
-### 5. [Markdown Converter Korean](https://github.com/Mrbaeksang/md-converter-korean) 📝
+### 6. [Markdown Converter Korean](https://github.com/Mrbaeksang/md-converter-korean) 📝
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
 **한국어 마크다운 변환 도구**
@@ -87,7 +111,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 - 💻 **기술**: TypeScript 기반 변환 엔진
 - 💡 **특징**: 한글 특수문자 처리 및 한국어 포맷팅 최적화
 
-### 6. [My Site Template](https://github.com/Mrbaeksang/my-site-template) 🎨
+### 7. [My Site Template](https://github.com/Mrbaeksang/my-site-template) 🎨
 [![Next.js](https://img.shields.io/badge/Next.js-Template-black?style=flat-square)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
@@ -160,7 +184,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 ## 🏆 성과 & 인증
 
 - **MCP 공식 서버 등재**: Anthropic의 Model Context Protocol 생태계 기여
-- **실 서비스 운영**: MAU 2만명 개발자 커뮤니티 플랫폼 운영
+- **실 서비스 운영**: 최대 MAU 2만명 개발자 커뮤니티 플랫폼 운영
 - **Spring AI 통합**: OpenRouter API 연동 및 Redis 캐싱으로 응답 시간 50% 단축
 - **오픈소스 기여**: 한국 개발자 커뮤니티를 위한 무료 도구 제공
 - **프로그래머스 데브코스**: 백엔드 과정 수료 및 팀 프로젝트 완성
