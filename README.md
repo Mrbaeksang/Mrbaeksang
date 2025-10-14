@@ -40,6 +40,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 [![Spring AI](https://img.shields.io/badge/Spring%20AI-1.1.0--M2-13aa52?style=flat-square)](https://spring.io/projects/spring-ai)
 
 **AI 기반 한국 여행 맞춤 가이드 서비스**
+- 🔗 **라이브 서비스**: [KoreaTravelGuide](https://www.team11.giwon11292.com/)
 - 💻 **GitHub**: [KoreaTravelGuide](https://github.com/Mrbaeksang/KoreaTravelGuide)
 - 👥 **협업**: 프로그래머스 데브코스 5명 팀 프로젝트
 
