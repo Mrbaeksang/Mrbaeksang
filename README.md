@@ -15,6 +15,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 [![Tests](https://img.shields.io/badge/Tests-20%2B-blue?style=flat-square)](https://github.com/Mrbaeksang/ai-counseling-backend)
 
 **Kotlin/Spring Boot 기반 AI 철학 상담 서비스**
+- 🔗 **플레이스토어**: [마인드톡](https://play.google.com/store/apps/details?id=com.mindtalk.app)
 - 💻 **GitHub**: [ai-counseling-backend](https://github.com/Mrbaeksang/ai-counseling-backend)
 - 📚 **문서**: [SRS](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/SRS.md) · [Architecture](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/system-architecture.md) · [ERD](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/erd-diagram.md) · [API Spec](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/api-specification.yaml)
 
