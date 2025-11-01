@@ -20,7 +20,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 - 📚 **문서**: [SRS](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/SRS.md) · [Architecture](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/system-architecture.md) · [ERD](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/erd-diagram.md) · [API Spec](https://github.com/Mrbaeksang/ai-counseling-backend/blob/main/docs/api-specification.yaml)
 
 **핵심 성취:**
-- **구글 플레이스토어 비공개 테스트 진행 중** (마인드톡 - AI 철학 상담 앱)
+- **구글 플레이스토어 런칭** (마인드톡 - AI 철학 상담 앱)
 - **Spring AI + OpenRouter 통합**: ChatClient를 통한 JSON 스키마 응답 강제 및 fallback 메시지 처리
 - **Redis 캐싱 전략**: 캐릭터/세션 페이지, OAuth/Refresh 토큰 TTL 분리로 응답 시간 50% 단축
 - **성능 최적화**: 응답 시간 112ms→52ms (53% 단축), 초당 처리량 100→200 req/s (2배 향상)
