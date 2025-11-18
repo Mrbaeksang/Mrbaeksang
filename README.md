@@ -2,6 +2,11 @@
 
 > "**성능 개선**과 **시스템 안정성**을 중시하며, 문제를 해결하는 Kotlin/Spring Boot 기반 풀스택 개발자"
 
+**AI 상담 어플리케이션 Google Play 출시 · 1,000명 커뮤니티 운영**
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:qortkdgus95@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Mrbaeksang)
+
 Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으며, 실제 서비스 운영 경험을 바탕으로 성장하고 있습니다.
 
 ---
@@ -66,7 +71,7 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 
 **실제 운영 중인 개발자 커뮤니티 서비스**
 - 🔗 **라이브 서비스**: [devcom.kr](https://devcom.kr)
-- 👥 **운영 현황**: 회원 900명, 최대 MAU 2만명
+- 👥 **운영 현황**: 회원 1,000명
 - 💻 **GitHub**: [developers_community](https://github.com/Mrbaeksang/developers_community)
 
 **주요 특징:**
@@ -159,20 +164,22 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 ## 📊 GitHub Stats
 
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mrbaeksang&show_icons=true&theme=radical)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mrbaeksang&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=qortkdgus95)](https://solved.ac/qortkdgus95/)
 
 </div>
 
 ---
 
-## 🏆 성과 & 인증
+## 🏆 주요 성과
 
-- **MCP 공식 서버 등재**: Anthropic의 Model Context Protocol 생태계 기여
-- **실 서비스 운영**: 최대 MAU 2만명 개발자 커뮤니티 플랫폼 운영
-- **Spring AI 통합**: OpenRouter API 연동 및 Redis 캐싱으로 응답 시간 50% 단축
-- **오픈소스 기여**: 한국 개발자 커뮤니티를 위한 무료 도구 제공
-- **프로그래머스 데브코스**: 백엔드 과정 수료 및 팀 프로젝트 완성
+- 🌏 **Anthropic MCP 공식 서버 등재** - Korea Stock Analyzer
+- 📱 **Google Play 앱 출시** - AI 철학 상담 앱 (마인드톡)
+- 👥 **개발자 커뮤니티 운영** - 회원 1,000명
+- ⭐ **My Site Template** - Next.js 스타터 템플릿 (GitHub 86 Stars)
+- 🎓 **프로그래머스 데브코스** - Java/Kotlin/Spring 백엔드 과정 수료
 
 ---
 
