@@ -31,19 +31,19 @@
 <!-- Social Icons -->
 <p align="center">
   <a href="mailto:qortkdgus95@gmail.com">
-    <img width="32px" alt="Email" title="Email" src="https://i.imgur.com/zx3fcfM.png"/>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/Mrbaeksang">
-    <img width="32px" alt="GitHub" title="GitHub" src="https://i.imgur.com/YJLPJ4K.png"/>
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
   <a href="https://www.instagram.com/baek.__.sang/">
-    <img width="32px" alt="Instagram" title="Instagram" src="https://i.imgur.com/THYiKBh.png"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
   <a href="https://devcom.kr">
-    <img width="32px" alt="Website" title="DevCom Website" src="https://i.imgur.com/FviHcPY.png"/>
+    <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
   </a>
 </p>
 
@@ -232,19 +232,19 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 
 <p align="center">
   <a href="mailto:qortkdgus95@gmail.com">
-    <img width="42px" alt="Email" title="Email" src="https://i.imgur.com/zx3fcfM.png"/>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/Mrbaeksang">
-    <img width="42px" alt="GitHub" title="GitHub" src="https://i.imgur.com/YJLPJ4K.png"/>
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
   <a href="https://www.instagram.com/baek.__.sang/">
-    <img width="42px" alt="Instagram" title="Instagram" src="https://i.imgur.com/THYiKBh.png"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
   <a href="https://devcom.kr">
-    <img width="42px" alt="Website" title="DevCom Website" src="https://i.imgur.com/FviHcPY.png"/>
+    <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
   </a>
 </p>
 
