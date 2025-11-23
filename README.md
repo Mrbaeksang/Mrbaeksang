@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Full-stack+Developer;Kotlin+%2F+Spring+Boot+Expert;AI+Integration+Specialist;Google+Play+App+Published;1%2C000%2B+Community+Members" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=Full-stack+Developer;Kotlin+%2F+Spring+Boot+Expert;AI+Integration+Specialist;Google+Play+App+Published;1,000%2B+Community+Members&font=Fira%20Code&center=true&width=500&height=50&color=f75c7e&vCenter=true&pause=1000&size=22" alt="Typing SVG" />
   </a>
 </p>
 
@@ -53,8 +53,11 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 
 ---
 
+## 🛠️ 기술 스택
+
 <details open>
-<summary><h2>🛠️ 기술 스택</h2></summary>
+<summary>클릭하여 접기/펼치기</summary>
+<br>
 
 ### Backend
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -184,8 +187,11 @@ Java/Kotlin 기반 풀스택 개발과 AI 통합에 열정을 가지고 있으�
 
 ---
 
+## 🤝 오픈소스 기여 & 공익 활동
+
 <details>
-<summary><h2>🤝 오픈소스 기여 & 공익 활동</h2></summary>
+<summary>클릭하여 펼치기</summary>
+<br>
 
 ### 5. [Korea Stock Analyzer - MCP Server](https://github.com/modelcontextprotocol/servers) 🏆
 
