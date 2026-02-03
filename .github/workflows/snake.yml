@@ -1,4 +1,4 @@
-name: generate snake animation
+name: generate profile assets
 
 on:
   schedule:
@@ -22,6 +22,22 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: generate stats card (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&include_all_commits=true&count_private=true&hide_border=true&locale=kr
+          path: dist/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: generate stats card (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&locale=kr
+          path: dist/github-stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

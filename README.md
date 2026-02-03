@@ -180,7 +180,11 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/Mrbaeksang/Mrbaeksang/output/github-snake.svg" />
 </picture>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mrbaeksang&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mrbaeksang/Mrbaeksang/output/github-stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mrbaeksang/Mrbaeksang/output/github-stats.svg" />
+  <img alt="GitHub Stats" src="https://raw.githubusercontent.com/Mrbaeksang/Mrbaeksang/output/github-stats.svg" />
+</picture>
 
 </div>
 
