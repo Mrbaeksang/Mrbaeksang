@@ -46,7 +46,7 @@
 | 🧭 **AX 컨설팅 · 백상랩스** | DX → AX 진단 · 파일럿 · 풀세팅. Anthropic Academy 18종 수료, 자체 워크플로에 먼저 적용 후 컨설팅 — [상세](https://baeksang.dev/ax) |
 | 🌐 **풀스택 웹 개발** | Next.js 16 · React 19 · FastAPI · Spring Boot · Kotlin — 프론트부터 DB·배포까지 한 사람이 끝까지 책임 |
 | 🤖 **AI 제품 엔지니어링** | LLM 오케스트레이션(OpenRouter · Spring AI · LangGraph) · Structured Output · SSE 스트리밍 · MCP · Agent |
-| 📱 **Kotlin Multiplatform 모바일** | Compose Multiplatform · Clean Architecture · 한 코드베이스로 iOS + Android 동시 빌드 |
+| 📱 **모바일 · 데스크톱 · 프로그램 개발** | Android · iOS · 토스 미니앱 · 웹뷰 · 데스크톱 앱까지. KMP(Kotlin Multiplatform) · Compose · Tauri 한 코드베이스로 동시 빌드. Google Play 출시 2건 · 토스 미니앱 1건 |
 | ⚙️ **이중 AI 하네스 운영** | Everything Claude Code(ECC) 16 플러그인 · 28 에이전트 · **115 스킬** · 59 커맨드 + Hermes Agent 자체 운영 |
 
 ---
