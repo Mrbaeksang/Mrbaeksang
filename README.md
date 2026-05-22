@@ -55,8 +55,8 @@
 
 | 단계 | 내용 |
 |------|------|
-| **01. 진단** | 1~2주 워크플로 분석 + AI 치환 우선순위 + ROI/보안/데이터 |
-| **02. 파일럿** | 1~2개 흐름을 4~6주 안에 실제 돌아가는 AI 워크플로로 |
+| **01. 진단** | 1\~2주 워크플로 분석 + AI 치환 우선순위 + ROI/보안/데이터 |
+| **02. 파일럿** | 1\~2개 흐름을 4\~6주 안에 실제 돌아가는 AI 워크플로로 |
 | **03. 풀세팅** | 조직 확장, 사용 가이드 + 보안 룰 + 평가 루프 + 운영 인계 |
 
 **Anthropic Academy 18종 수료** _(2026-05)_ — AI Fluency · Claude · API · Agent/MCP 전 카테고리 (`AI Fluency: Framework & Foundations` 10/10)
@@ -211,7 +211,7 @@
 
 <br/>
 
-**투표 결과를 바 차트 레이스로 시각화** — Framer Motion 기반 10~30초 순위 변동, 8개 카테고리, 시간대별 랭킹, 비공개 투표(shareToken). [polldash.app](https://polldash.app)
+**투표 결과를 바 차트 레이스로 시각화** — Framer Motion 기반 10\~30초 순위 변동, 8개 카테고리, 시간대별 랭킹, 비공개 투표(shareToken). [polldash.app](https://polldash.app)
 
 </details>
 
@@ -234,7 +234,7 @@
 
 | 훅 | 어떤 손실을 막나 |
 |----|------------------|
-| **RTK** _(Rust Token Killer)_ | Claude Code 훅에 자동 wrapping된 CLI proxy. 일상 명령 출력을 모델 컨텍스트로 흘리기 전에 요약·필터링해서 **토큰 60~90% 절감** |
+| **RTK** _(Rust Token Killer)_ | Claude Code 훅에 자동 wrapping된 CLI proxy. 일상 명령 출력을 모델 컨텍스트로 흘리기 전에 요약·필터링해서 **토큰 60\~90% 절감** |
 | **context-mode** | Bash·WebFetch·큰 JSON을 메모리에 흘리지 않고 샌드박스+FTS5 인덱스로 받음. `ctx_search`로 필요한 부분만 꺼냄. 14개 클라이언트 호환 |
 | **graphify** | 코드·문서·이미지 폴더를 지식 그래프로 만들어 BFS·DFS·최단 경로 쿼리로 답. raw 파일 안 읽고 그래프 traversal |
 | **Atrium** _(철학)_ | 외부 API = 비용·검열·지연·프라이버시 4종 묶음. 로컬 GPU에 모델 직접 띄워 MCP로 호출하면 그 묶음에서 풀려요 |
