@@ -243,37 +243,6 @@
 
 ---
 
-## 🤖 자동화 인프라
-
-> **로컬 GPU + Hermes Agent + 카카오톡 채널 양방향 봇 = 카톡 한 줄로 캘린더 등록 · Gmail 분석 · 매일 아침 브리핑.**
-
-```
-[내 카톡] ─→ 카카오톡 채널 (백상랩스)
-             └─→ 카카오 i Bot · Skill webhook (공인 도메인)
-                  └─→ Hermes Agent (로컬 Qwen 35B-A3B)
-                       ├─ Google Calendar 자동 등록
-                       ├─ Gmail 모니터링 → 분석 → 카톡 답장
-                       ├─ 자연어 cron ("매일 아침 7시 브리핑")
-                       └─ 5s 내 동기 / 초과 시 callbackUrl 비동기
-```
-
-<details>
-<summary><b>인프라 구성 보기</b></summary>
-
-<br/>
-
-| 레이어 | 구성 |
-|--------|------|
-| **메시지 채널** | 카카오톡 채널 (사업자 백상랩스) + 카카오 i 오픈빌더 Skill 서버 |
-| **에이전트 코어** | Hermes Agent (Nous Research / MIT) · Persistent memory · Skills Hub · 자연어 cron |
-| **추론 엔진** | 로컬 Qwen3.6 35B-A3B Uncensored (`:8080`) + Qwen3-Embedding-8B (`:8082`) |
-| **외부 노출** | Tailscale Funnel / Cloudflare Tunnel로 로컬 endpoint를 공인 도메인에 매핑 |
-| **통합 스킬** | Gmail · Google Calendar · Linear · arXiv · 매일의 AI 발행 |
-
-</details>
-
----
-
 ## 🤝 오픈소스
 
 | 프로젝트 | 설명 |
