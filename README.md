@@ -118,7 +118,25 @@
 </details>
 
 <details>
-<summary><b>3. AskUp — Upstage Solar-Pro2 AI 챗봇</b> · <code>Upstage 외주 계약</code></summary>
+<summary><b>3. Skilledge — 회사 지식·스킬을 AI 가 직접 읽고 쓰는 워크스페이스</b> · <code>skilledge.baeksang.dev</code></summary>
+
+<br/>
+
+[![Go](https://img.shields.io/badge/Go-1.25-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev)
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js)](https://nextjs.org)
+[![MCP](https://img.shields.io/badge/MCP-OAuth%202.1-7C3AED?style=flat-square)](https://modelcontextprotocol.io)
+
+**스킬 레지스트리 + 회사 위키를 AI(Claude·Cursor·Codex)가 MCP 로 직접 읽고 쓰는 워크스페이스**
+
+- 🔌 URL 하나로 원클릭 연결 — MCP OAuth 2.1(RFC 9728·8414·7591 + PKCE) 정공법 구현
+- 🛠️ 20여 MCP 도구로 AI 가 페이지·스킬·공간을 브라우저 없이 직접 생성·편집·이동·복구
+- 🗂️ 노션식 무한 재귀 공간 + 멤버×공간 3단계 권한(뷰어/편집자/관리자)
+- 🔎 벡터·키워드 하이브리드 검색 · Claude Skills 호환 스킬 포맷 · 한국어 우선
+
+</details>
+
+<details>
+<summary><b>4. AskUp — Upstage Solar-Pro2 AI 챗봇</b> · <code>Upstage 외주 계약</code></summary>
 
 <br/>
 
@@ -137,7 +155,7 @@
 </details>
 
 <details>
-<summary><b>4. 매일의 AI · 개발 다이제스트</b> · <code>baeksang.dev/daily</code></summary>
+<summary><b>5. 매일의 AI · 개발 다이제스트</b> · <code>baeksang.dev/daily</code></summary>
 
 <br/>
 
@@ -155,7 +173,7 @@
 </details>
 
 <details>
-<summary><b>5. Qnova — 학원 수업자료 AI 생성 SaaS</b></summary>
+<summary><b>6. Qnova — 학원 수업자료 AI 생성 SaaS</b></summary>
 
 <br/>
 
@@ -171,7 +189,7 @@
 </details>
 
 <details>
-<summary><b>6. 야무진 — 네이버 플레이스 랭킹 추적 + 시그널 대시보드</b></summary>
+<summary><b>7. 야무진 — 네이버 플레이스 랭킹 추적 + 시그널 대시보드</b></summary>
 
 <br/>
 
@@ -187,7 +205,7 @@
 </details>
 
 <details>
-<summary><b>7. 마인드톡 — AI 철학 상담 앱</b> · <code>Google Play 출시</code></summary>
+<summary><b>8. 마인드톡 — AI 철학 상담 앱</b> · <code>Google Play 출시</code></summary>
 
 <br/>
 
@@ -198,7 +216,7 @@
 </details>
 
 <details>
-<summary><b>8. devcom.kr — 개발자 커뮤니티</b> · <code>회원 1,000명 운영</code></summary>
+<summary><b>9. devcom.kr — 개발자 커뮤니티</b> · <code>회원 1,000명 운영</code></summary>
 
 <br/>
 
@@ -206,14 +224,6 @@
 
 </details>
 
-<details>
-<summary><b>9. PollDash — 실시간 투표 커뮤니티</b> · <code>라이브 서비스</code></summary>
-
-<br/>
-
-**투표 결과를 바 차트 레이스로 시각화** — Framer Motion 기반 10\~30초 순위 변동, 8개 카테고리, 시간대별 랭킹, 비공개 투표(shareToken). [polldash.app](https://polldash.app)
-
-</details>
 
 ---
 
