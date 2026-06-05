@@ -257,6 +257,7 @@
 
 | 프로젝트 | 설명 |
 |----------|------|
+| [**DeepCloak**](https://github.com/Mrbaeksang/deepcloak) 🛡️ | Cloudflare·Turnstile·reCAPTCHA 막힌 페이지까지 읽는 로컬 딥리서치 — CLI·MCP·Claude 스킬, MIT ([데모](https://youtu.be/p5ompjDLzaI)) |
 | [**Korea Stock Analyzer MCP**](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp) 🏆 | Anthropic MCP 공식 서버 등재 — 6대 투자대가 전략 분석 |
 | [**My Site Template**](https://github.com/Mrbaeksang/my-site-template) ⭐ 86+ | Next.js + TS 웹사이트 스타터 |
 | [**computer-use-mcp**](https://github.com/Mrbaeksang/computer-use-mcp) | macOS 제어 MCP — Rust NAPI in-process |
