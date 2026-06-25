@@ -15,10 +15,7 @@
 <br/><br/>
 
 <img src="https://img.shields.io/badge/Anthropic%20Academy-18종%20수료-CC785C?style=for-the-badge&logo=anthropic&logoColor=white"/>
-<img src="https://img.shields.io/badge/AX%20컨설팅-백상랩스-000000?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/AI%2FAX%20강사-사내%20강의·워크숍-7C3AED?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Google%20Play-2건-34A853?style=for-the-badge&logo=google-play&logoColor=white"/>
-<img src="https://img.shields.io/badge/Upstage%20외주-1건-FF6F00?style=for-the-badge"/>
 
 <br/>
 
@@ -40,28 +37,11 @@
 
 | 제공 | 내용 |
 |------|------|
-| 🧭 **AX 컨설팅** | 백상랩스 — DX→AX 진단·파일럿·풀세팅 · [상세](https://baeksang.dev/ax) |
 | 🎤 **AI/AX 강사** | 사내 AI 도구 실무 강의 · 워크숍 · 사내 가이드 작성 (Claude · MCP · Agent · 프롬프트) |
 | 🌐 **풀스택 웹** | Next.js · Spring Boot · FastAPI — DB·배포까지 |
 | 🤖 **AI 제품** | OpenRouter · Spring AI · LangGraph · MCP · Agent · SSE |
 | 📱 **모바일/데스크톱** | KMP · Compose · Tauri — Play 출시 2건 + 토스 미니앱 1건 |
-| ⚙️ **이중 AI 하네스** | ECC 115 스킬 + Hermes Agent 자체 운영 |
-
----
-
-## 🧭 AX 컨설팅 · 백상랩스
-
-> **DX는 화면을 바꿨고, AX는 판단을 바꿉니다.**
-
-| 단계 | 내용 |
-|------|------|
-| **01. 진단** | 1\~2주 워크플로 분석 + AI 치환 우선순위 + ROI/보안/데이터 |
-| **02. 파일럿** | 1\~2개 흐름을 4\~6주 안에 실제 돌아가는 AI 워크플로로 |
-| **03. 풀세팅** | 조직 확장, 사용 가이드 + 보안 룰 + 평가 루프 + 운영 인계 |
-
-**Anthropic Academy 18종 수료** _(2026-05)_ — AI Fluency · Claude · API · Agent/MCP 전 카테고리 (`AI Fluency: Framework & Foundations` 10/10)
-
-📩 [contact@baeksang.dev](mailto:contact@baeksang.dev?subject=AX%20컨설팅%20문의) · 첫 30분 진단 무료
+| ⚙️ **이중 AI 하네스** | Claude Code 스킬 체인(PRD→이슈→TDD→검증) + Hermes Agent 자체 운영 |
 
 ---
 
@@ -101,19 +81,20 @@
 </details>
 
 <details>
-<summary><b>2. Memex — 한국어 회의·메모·인터뷰 작업 공간</b> · <code>memex.baeksang.dev</code></summary>
+<summary><b>2. hwpx 한글 도우미 — 채팅으로 만드는 한글(HWPX) 문서</b> · <code>hwpx.baeksanglabs.com</code></summary>
 
 <br/>
 
-[![Go](https://img.shields.io/badge/Go-1.25-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev/)
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js)](https://nextjs.org)
-[![pgvector](https://img.shields.io/badge/Postgres18+pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)](https://github.com/pgvector/pgvector)
+[![pydantic-ai](https://img.shields.io/badge/pydantic--ai-Agent-E92063?style=flat-square)](https://ai.pydantic.dev)
+[![python-hwpx](https://img.shields.io/badge/python--hwpx-OWPML-0064FF?style=flat-square)]()
 
-**음성·텍스트 → 받아쓰기 + 핵심 정리 + 사람·주제 자동 연결 한 번에**
+**채팅으로 정부지원사업 사업계획서 등 한글(HWPX) 문서를 만들어 주는 AI 에이전트** — 예비창업패키지 등 공식 양식 기반
 
-- 🎙️ faster-whisper 음성 인식 + 4-layer 자산(raw/processed/facts/embeddings)
-- 🧠 지식 그래프 + 하이브리드 챗봇으로 "내가 알던 사람 누가 뭐 했더라" 자동 회상
-- 🔐 음성 원본 24시간 자동 폐기, 워크스페이스 단위 격리
+- 🧩 DocumentState(섹션→문단→런→표 + 스타일 풀, OWPML 미러링)를 14개 tool-verb로 조립 → **python-hwpx export, 실제 한글에서 병합·폰트·페이지 수 보존**
+- 📋 공공데이터포털 공식 양식을 구조 base로 ingest 후 slot 채우기 (Claude-in-Chrome 수집)
+- 💳 micro-credit 정수 원장 — `hold→settle`, `generation_id` 멱등으로 더블차지 0 (PortOne 결제)
+- 🤖 pydantic-ai + pydantic-graph 에이전트 · assistant-ui(AG-UI) 스트리밍 · Better Auth(Kakao)
 
 </details>
 
@@ -189,7 +170,24 @@
 </details>
 
 <details>
-<summary><b>7. 야무진 — 네이버 플레이스 랭킹 추적 + 시그널 대시보드</b></summary>
+<summary><b>7. Memex — 한국어 회의·메모·인터뷰 작업 공간</b> · <code>memex.baeksang.dev</code></summary>
+
+<br/>
+
+[![Go](https://img.shields.io/badge/Go-1.25-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev/)
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js)](https://nextjs.org)
+[![pgvector](https://img.shields.io/badge/Postgres18+pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)](https://github.com/pgvector/pgvector)
+
+**음성·텍스트 → 받아쓰기 + 핵심 정리 + 사람·주제 자동 연결 한 번에**
+
+- 🎙️ faster-whisper 음성 인식 + 4-layer 자산(raw/processed/facts/embeddings)
+- 🧠 지식 그래프 + 하이브리드 챗봇으로 "내가 알던 사람 누가 뭐 했더라" 자동 회상
+- 🔐 음성 원본 24시간 자동 폐기, 워크스페이스 단위 격리
+
+</details>
+
+<details>
+<summary><b>8. 야무진 — 네이버 플레이스 랭킹 추적 + 시그널 대시보드</b></summary>
 
 <br/>
 
@@ -205,7 +203,7 @@
 </details>
 
 <details>
-<summary><b>8. 마인드톡 — AI 철학 상담 앱</b> · <code>Google Play 출시</code></summary>
+<summary><b>9. 마인드톡 — AI 철학 상담 앱</b> · <code>Google Play 출시</code></summary>
 
 <br/>
 
@@ -216,7 +214,7 @@
 </details>
 
 <details>
-<summary><b>9. devcom.kr — 개발자 커뮤니티</b> · <code>회원 1,000명 운영</code></summary>
+<summary><b>10. devcom.kr — 개발자 커뮤니티</b> · <code>회원 1,000명 운영</code></summary>
 
 <br/>
 
@@ -233,9 +231,9 @@
 
 | 영역 | 도구 | 역할 |
 |------|------|------|
-| 🟢 **세션형 코딩** | **ECC** (Everything Claude Code) | 16 플러그인 · 28 에이전트 · **115 스킬** · 59 커맨드, 한국어 풀로컬라이즈. 병렬 에이전트 + Planner→Generator→Evaluator 루프 |
-| 🟣 **24/7 상시 운영** | [**Hermes Agent**](https://github.com/nousresearch/hermes-agent) | Telegram·Discord·Slack·WhatsApp·Email 한 게이트웨이. 로컬 Qwen 35B로 외부 API 의존 0 |
-| 🔁 **인스팅트 학습 루프** | ECC 명령 체인 | `continuous-learning` → `eval-harness` → `evolve` → `harness-optimizer` |
+| 🟢 **세션형 코딩** | **Claude Code** | `to-prd` → `to-issues` → `tdd` → `grill-me` 스킬 체인 — PRD에서 이슈·테스트·자기검증까지 한 세션에서 |
+| 🟣 **24/7 상시 운영** | **Hermes Agent** _(자체 호스팅)_ | Telegram·Discord·Slack·WhatsApp·Email 한 게이트웨이. 로컬 Qwen으로 외부 API 의존 0 |
+| 🧭 **컨텍스트 다이어트** | **context-mode · codegraph · RTK** | 큰 출력은 인덱스만, raw 파일 대신 그래프 쿼리, 명령 출력은 토큰 60\~90% 필터 |
 
 <details>
 <summary><b>🪝 매일 쓰는 4종 훅 — 토큰·컨텍스트가 새지 않게</b></summary>
@@ -246,7 +244,7 @@
 |----|------------------|
 | **RTK** _(Rust Token Killer)_ | Claude Code 훅에 자동 wrapping된 CLI proxy. 일상 명령 출력을 모델 컨텍스트로 흘리기 전에 요약·필터링해서 **토큰 60\~90% 절감** |
 | **context-mode** | Bash·WebFetch·큰 JSON을 메모리에 흘리지 않고 샌드박스+FTS5 인덱스로 받음. `ctx_search`로 필요한 부분만 꺼냄. 14개 클라이언트 호환 |
-| **graphify** | 코드·문서·이미지 폴더를 지식 그래프로 만들어 BFS·DFS·최단 경로 쿼리로 답. raw 파일 안 읽고 그래프 traversal |
+| **codegraph** | 코드·문서를 지식 그래프로 — raw 파일 안 읽고 BFS·DFS·최단 경로로 traversal (sub-ms 쿼리) |
 | **Atrium** _(철학)_ | 외부 API = 비용·검열·지연·프라이버시 4종 묶음. 로컬 GPU에 모델 직접 띄워 MCP로 호출하면 그 묶음에서 풀려요 |
 
 </details>
@@ -283,8 +281,8 @@
 
 | 분류 | 기술 |
 |------|------|
-| **Backend** | Kotlin · Java · Spring Boot · Spring AI · JPA · Kotlin JDSL · Python · FastAPI · SQLAlchemy 2.0 async · Go · Gin |
-| **AI / LLM** | OpenRouter · Spring AI · LangGraph · MCP · SSE Streaming · Structured Output · PgVector · 로컬 추론(llama.cpp · vLLM · SGLang) |
+| **Backend** | Kotlin · Java · Spring Boot · Spring AI · JPA · Kotlin JDSL · Python · FastAPI · NestJS · SQLAlchemy 2.0 async · Go · Gin |
+| **AI / LLM** | OpenRouter · Spring AI · LangGraph · pydantic-ai · MCP · SSE Streaming · Structured Output · PgVector · 로컬 추론(llama.cpp · vLLM · SGLang) |
 | **Mobile** | Kotlin Multiplatform · Compose Multiplatform · Voyager · Koin · Ktor Client |
 | **Frontend** | Next.js 16 · React 19 · TypeScript · Tailwind v4 · shadcn/ui · TanStack Query · Zustand |
 | **Animation/3D** | GSAP · Framer Motion · Three.js · React Three Fiber · Lenis |
