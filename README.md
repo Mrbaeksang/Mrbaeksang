@@ -270,7 +270,7 @@
 
 ![Backend](https://skillicons.dev/icons?i=kotlin,java,spring,py,fastapi,go)
 ![Frontend](https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,threejs)
-![DevOps](https://skillicons.dev/icons?i=postgres,redis,docker,vercel,githubactions)
+![DevOps](https://skillicons.dev/icons?i=postgres,redis,docker,aws,vercel,githubactions)
 
 </div>
 
@@ -282,12 +282,12 @@
 | 분류 | 기술 |
 |------|------|
 | **Backend** | Kotlin · Java · Spring Boot · Spring AI · JPA · Kotlin JDSL · Python · FastAPI · NestJS · SQLAlchemy 2.0 async · Go · Gin |
-| **AI / LLM** | OpenRouter · Spring AI · LangGraph · pydantic-ai · MCP · SSE Streaming · Structured Output · PgVector · 로컬 추론(llama.cpp · vLLM · SGLang) |
-| **Mobile** | Kotlin Multiplatform · Compose Multiplatform · Voyager · Koin · Ktor Client |
+| **AI / LLM** | OpenRouter · Spring AI · LangGraph · LangChain · pydantic-ai · MCP · SSE Streaming · Structured Output · PgVector · 로컬 추론(llama.cpp · vLLM · SGLang) |
+| **Mobile** | Kotlin Multiplatform · Compose Multiplatform · React Native · Dart · Voyager · Koin · Ktor Client |
 | **Frontend** | Next.js 16 · React 19 · TypeScript · Tailwind v4 · shadcn/ui · TanStack Query · Zustand |
 | **Animation/3D** | GSAP · Framer Motion · Three.js · React Three Fiber · Lenis |
 | **Database** | PostgreSQL · PgVector · Redis · SQLite · Drizzle |
-| **DevOps** | Docker · GitHub Actions · Vercel · Railway · Tailscale · Cloudflare Tunnel |
+| **DevOps** | Docker · GitHub Actions · AWS · Vercel · Railway · Tailscale · Cloudflare Tunnel |
 | **Auth** | OAuth 2.0 (Google · Apple · Kakao · LinkedIn) · JWT · 토큰 회전 |
 
 </details>
@@ -297,7 +297,7 @@
 ## 🏆 주요 성과
 
 - 🏆 **2025 AI_TOP_100 FINALIST** — 카카오·브라이언임팩트·카카오임팩트
-- 🎓 **Anthropic Academy 18종 수료** (1종 10/10 만점)
+- 🎓 **Anthropic Academy 18종 수료**
 - 📋 **Upstage 외주 계약** — AskUp Solar-Pro2
 - 📱 **Google Play 출시 2건** + 토스 미니앱 1건
 - 🌏 **Anthropic MCP 공식 서버 등재** — Korea Stock Analyzer
