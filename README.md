@@ -14,7 +14,7 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Anthropic%20Academy-18종%20수료-CC785C?style=for-the-badge&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/AI%20실무%20교육-18종%20수료-2563EB?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/AI%2FAX%20강사-사내%20강의·워크숍-7C3AED?style=for-the-badge"/>
 
 <br/>
@@ -37,11 +37,11 @@
 
 | 제공 | 내용 |
 |------|------|
-| 🎤 **AI/AX 강사** | 사내 AI 도구 실무 강의 · 워크숍 · 사내 가이드 작성 (Claude · MCP · Agent · 프롬프트) |
+| 🎤 **AI/AX 강사** | 사내 AI 도구 실무 강의 · 워크숍 · 사내 가이드 작성 (AI 코딩 · MCP · Agent · 프롬프트) |
 | 🌐 **풀스택 웹** | Next.js · Spring Boot · FastAPI — DB·배포까지 |
 | 🤖 **AI 제품** | OpenRouter · Spring AI · LangGraph · MCP · Agent · SSE |
 | 📱 **모바일/데스크톱** | KMP · Compose · Tauri — Play 출시 2건 + 토스 미니앱 1건 |
-| ⚙️ **이중 AI 하네스** | Claude Code 스킬 체인(PRD→이슈→TDD→검증) + Hermes Agent 자체 운영 |
+| ⚙️ **이중 AI 하네스** | AI 코딩 에이전트 스킬 체인(PRD→이슈→TDD→검증) + Hermes Agent 자체 운영 |
 
 ---
 
@@ -51,7 +51,7 @@
 
 | 형태 | 내용 |
 |------|------|
-| **AI 도구 실무 강의** | Claude Code · Cursor · ChatGPT 실전 사용법, 프롬프트 설계, 함정 패턴 |
+| **AI 도구 실무 강의** | AI 코딩 에이전트 실전 사용법, 프롬프트 설계, 함정 패턴 |
 | **MCP · Agent 워크숍** | 사내 시스템 연결, Skill/Subagent 설계, 보안·평가 루프 |
 | **사내 AI 가이드 작성** | 사용 룰 · 보안 룰 · 평가 기준 문서화, 팀별 적용 시나리오 |
 | **DX→AX 마이그레이션** | 컨설팅 + 강의 패키지로 진행 가능 |
@@ -92,7 +92,7 @@
 **채팅으로 정부지원사업 사업계획서 등 한글(HWPX) 문서를 만들어 주는 AI 에이전트** — 예비창업패키지 등 공식 양식 기반
 
 - 🧩 DocumentState(섹션→문단→런→표 + 스타일 풀, OWPML 미러링)를 14개 tool-verb로 조립 → **python-hwpx export, 실제 한글에서 병합·폰트·페이지 수 보존**
-- 📋 공공데이터포털 공식 양식을 구조 base로 ingest 후 slot 채우기 (Claude-in-Chrome 수집)
+- 📋 공공데이터포털 공식 양식을 구조 base로 ingest 후 slot 채우기 (AI 브라우저 에이전트 수집)
 - 💳 micro-credit 정수 원장 — `hold→settle`, `generation_id` 멱등으로 더블차지 0 (PortOne 결제)
 - 🤖 pydantic-ai + pydantic-graph 에이전트 · assistant-ui(AG-UI) 스트리밍 · Better Auth(Kakao)
 
@@ -107,12 +107,12 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js)](https://nextjs.org)
 [![MCP](https://img.shields.io/badge/MCP-OAuth%202.1-7C3AED?style=flat-square)](https://modelcontextprotocol.io)
 
-**스킬 레지스트리 + 회사 위키를 AI(Claude·Cursor·Codex)가 MCP 로 직접 읽고 쓰는 워크스페이스**
+**스킬 레지스트리 + 회사 위키를 AI 코딩 에이전트가 MCP 로 직접 읽고 쓰는 워크스페이스**
 
 - 🔌 URL 하나로 원클릭 연결 — MCP OAuth 2.1(RFC 9728·8414·7591 + PKCE) 정공법 구현
 - 🛠️ 20여 MCP 도구로 AI 가 페이지·스킬·공간을 브라우저 없이 직접 생성·편집·이동·복구
 - 🗂️ 노션식 무한 재귀 공간 + 멤버×공간 3단계 권한(뷰어/편집자/관리자)
-- 🔎 벡터·키워드 하이브리드 검색 · Claude Skills 호환 스킬 포맷 · 한국어 우선
+- 🔎 벡터·키워드 하이브리드 검색 · AI 에이전트 호환 스킬 포맷 · 한국어 우선
 
 </details>
 
@@ -227,11 +227,11 @@
 
 ## ⚙️ 이중 AI 하네스
 
-> **"코딩은 Claude Code, 상시 운영은 Hermes Agent. 그 사이를 4종 훅이 받친다."**
+> **"코딩은 AI 에이전트, 상시 운영은 Hermes Agent. 그 사이를 4종 훅이 받친다."**
 
 | 영역 | 도구 | 역할 |
 |------|------|------|
-| 🟢 **세션형 코딩** | **Claude Code** | `to-prd` → `to-issues` → `tdd` → `grill-me` 스킬 체인 — PRD에서 이슈·테스트·자기검증까지 한 세션에서 |
+| 🟢 **세션형 코딩** | **AI 코딩 에이전트** | `to-prd` → `to-issues` → `tdd` → `grill-me` 스킬 체인 — PRD에서 이슈·테스트·자기검증까지 한 세션에서 |
 | 🟣 **24/7 상시 운영** | **Hermes Agent** _(자체 호스팅)_ | Telegram·Discord·Slack·WhatsApp·Email 한 게이트웨이. 로컬 Qwen으로 외부 API 의존 0 |
 | 🧭 **컨텍스트 다이어트** | **context-mode · codegraph · RTK** | 큰 출력은 인덱스만, raw 파일 대신 그래프 쿼리, 명령 출력은 토큰 60\~90% 필터 |
 
@@ -242,7 +242,7 @@
 
 | 훅 | 어떤 손실을 막나 |
 |----|------------------|
-| **RTK** _(Rust Token Killer)_ | Claude Code 훅에 자동 wrapping된 CLI proxy. 일상 명령 출력을 모델 컨텍스트로 흘리기 전에 요약·필터링해서 **토큰 60\~90% 절감** |
+| **RTK** _(Rust Token Killer)_ | AI 코딩 에이전트 훅에 자동 wrapping된 CLI proxy. 일상 명령 출력을 모델 컨텍스트로 흘리기 전에 요약·필터링해서 **토큰 60\~90% 절감** |
 | **context-mode** | Bash·WebFetch·큰 JSON을 메모리에 흘리지 않고 샌드박스+FTS5 인덱스로 받음. `ctx_search`로 필요한 부분만 꺼냄. 14개 클라이언트 호환 |
 | **codegraph** | 코드·문서를 지식 그래프로 — raw 파일 안 읽고 BFS·DFS·최단 경로로 traversal (sub-ms 쿼리) |
 | **Atrium** _(철학)_ | 외부 API = 비용·검열·지연·프라이버시 4종 묶음. 로컬 GPU에 모델 직접 띄워 MCP로 호출하면 그 묶음에서 풀려요 |
@@ -255,8 +255,8 @@
 
 | 프로젝트 | 설명 |
 |----------|------|
-| [**DeepCloak**](https://github.com/Mrbaeksang/deepcloak) 🛡️ | Cloudflare·Turnstile·reCAPTCHA 막힌 페이지까지 읽는 로컬 딥리서치 — CLI·MCP·Claude 스킬, MIT ([데모](https://youtu.be/p5ompjDLzaI)) |
-| [**Korea Stock Analyzer MCP**](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp) 🏆 | Anthropic MCP 공식 서버 등재 — 6대 투자대가 전략 분석 |
+| [**DeepCloak**](https://github.com/Mrbaeksang/deepcloak) 🛡️ | Cloudflare·Turnstile·reCAPTCHA 막힌 페이지까지 읽는 로컬 딥리서치 — CLI·MCP·AI 에이전트 스킬, MIT ([데모](https://youtu.be/p5ompjDLzaI)) |
+| [**Korea Stock Analyzer MCP**](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp) 🏆 | MCP 공식 서버 디렉터리 등재 — 6대 투자대가 전략 분석 |
 | [**My Site Template**](https://github.com/Mrbaeksang/my-site-template) ⭐ 86+ | Next.js + TS 웹사이트 스타터 |
 | [**computer-use-mcp**](https://github.com/Mrbaeksang/computer-use-mcp) | macOS 제어 MCP — Rust NAPI in-process |
 | [**spring-ai-weather-tool**](https://github.com/Mrbaeksang/spring-ai-weather-tool) | Spring AI 1.0.1 + Groq · `@Tool` 자동 호출 |
@@ -297,11 +297,11 @@
 ## 🏆 주요 성과
 
 - 🏆 **2025 AI_TOP_100 FINALIST** — 카카오·브라이언임팩트·카카오임팩트
-- 🎓 **Anthropic Academy 18종 수료**
+- 🎓 **AI 실무 교육 18종 수료**
 - 📋 **Upstage 외주 계약** — AskUp Solar-Pro2
 - 📱 **Google Play 출시 2건** + 토스 미니앱 1건
-- 🌏 **Anthropic MCP 공식 서버 등재** — Korea Stock Analyzer
-- 👥 **devcom.kr 1,000명 운영** · ⭐ **My Site Template 86+ Stars**
+- 🌏 **MCP 공식 서버 디렉터리 등재** — Korea Stock Analyzer
+- 👥 **devcom.kr 1,000명 운영** · ⭐ **My Site Template 93+ Stars**
 - 🏢 **백상랩스 사업자 등록** — AX 컨설팅·강의 정식 운영
 
 ---
