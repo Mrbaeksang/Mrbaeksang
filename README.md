@@ -302,7 +302,6 @@
 - 📱 **Google Play 출시 2건** + 토스 미니앱 1건
 - 🌏 **MCP 공식 서버 디렉터리 등재** — Korea Stock Analyzer
 - 👥 **devcom.kr 1,000명 운영** · ⭐ **My Site Template 93+ Stars**
-- 🏢 **백상랩스 사업자 등록** — AX 컨설팅·강의 정식 운영
 
 ---
 
