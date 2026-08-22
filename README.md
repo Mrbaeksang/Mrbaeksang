@@ -258,7 +258,6 @@
 | [**DeepCloak**](https://github.com/Mrbaeksang/deepcloak) 🛡️ | Cloudflare·Turnstile·reCAPTCHA 막힌 페이지까지 읽는 로컬 딥리서치 — CLI·MCP·AI 에이전트 스킬, MIT ([데모](https://youtu.be/p5ompjDLzaI)) |
 | [**Korea Stock Analyzer MCP**](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp) 🏆 | MCP 공식 서버 디렉터리 등재 — 6대 투자대가 전략 분석 |
 | [**My Site Template**](https://github.com/Mrbaeksang/my-site-template) ⭐ 86+ | Next.js + TS 웹사이트 스타터 |
-| [**computer-use-mcp**](https://github.com/Mrbaeksang/computer-use-mcp) | macOS 제어 MCP — Rust NAPI in-process |
 | [**spring-ai-weather-tool**](https://github.com/Mrbaeksang/spring-ai-weather-tool) | Spring AI 1.0.1 + Groq · `@Tool` 자동 호출 |
 | [**md-converter-korean**](https://github.com/Mrbaeksang/md-converter-korean) | 한국어 마크다운 → HTML·PDF·DOCX·PPT |
 
