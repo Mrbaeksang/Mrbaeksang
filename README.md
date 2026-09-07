@@ -1,30 +1,42 @@
 # 백상현
 
-웹·모바일 AI 서비스를 만드는 풀스택 개발자입니다.
-문서 처리와 MCP 연동 기능을 개발하고, 로그인·결제·오류 처리·배포까지 연결합니다.
+제품 출시부터 운영까지 책임지는 풀스택 개발자입니다.
 
-[프로젝트 소개](https://baeksang.dev/about) · [개발 다이제스트](https://baeksang.dev/daily) · [이메일](mailto:contact@baeksang.dev)
+마드라스체크의 OKR 서비스를 단독 개발·출시했습니다. Upstage AskUp 크로스플랫폼 앱과 Timely AI MCP Hub를 개발했고, 개인 서비스 **baeksang.dev는 월 방문자 약 1만 명** 규모로 운영합니다.
 
-## 만든 제품
+웹·모바일 제품 개발, 업무 도구를 실행하는 AI 에이전트, 결제와 운영 자동화를 다룹니다.
 
-| 프로젝트 | 맡아서 구현한 것 | 확인하기 |
-| --- | --- | --- |
-| **사주박사** | AI 대화, 크레딧 과금, 인앱결제와 웹훅 처리 | [Google Play](https://play.google.com/store/apps/details?id=com.sajubaksa.android) · [소개](https://saju-baksa-web.vercel.app) |
-| **HWPX 한글 도우미** | 채팅 기반 문서 작성, HWPX 출력, 생성 비용 예약·정산 | [서비스](https://hwpx.baeksanglabs.com) |
-| **로컬 문서 마스커** | PC 안에서 개인정보 마스킹·복원, 작업별 자리표시자 검증, Windows 설치판 | [릴리스](https://github.com/Mrbaeksang/local-document-masker-feed/releases) |
-| **AskUp** | Spring Boot·Kotlin 백엔드, SSE 대화, 문서 분석, KMP 모바일 | [시연](https://www.youtube.com/watch?v=4j4Pxz3KDT0) · [설명](https://baeksang.dev/work/askup) |
+[포트폴리오](https://baeksang.dev/about) · [이메일](mailto:qortkdgus95@gmail.com)
 
-제품 소스는 비공개인 경우가 있어 서비스·시연·배포 결과물로 연결했습니다.
+## 직접 만든 서비스
 
-## 공개 코드
+### [사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android)
+Google Play에 출시한 AI 운세 서비스입니다. 웹·모바일과 백엔드를 개발하고 AI 대화, 크레딧 과금, 인앱결제와 웹훅 처리를 연결했습니다.
 
-- **[DeepCloak](https://github.com/Mrbaeksang/deepcloak)** — 기존 리서치 엔진과 브라우저를 연결한 CLI·MCP 도구. 일반 수집 실패 시 전환 정책, 근거 기록, 실행 이력을 구현했습니다. [소개](https://deepcloak.vercel.app) · [PyPI](https://pypi.org/project/deepcloak/)
-- **[Korea Stock Analyzer MCP](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp)** — DART 공시와 KRX 시세를 조회하고, 계산 결과에 출처와 가정을 붙이는 Python MCP 서버입니다.
-- **[My Site Template](https://github.com/Mrbaeksang/my-site-template)** — 화면에서 내용을 편집하는 Next.js 포트폴리오 템플릿입니다. [사용 강의](https://www.youtube.com/watch?v=U6zL8qittGk)
+### [baeksang.dev](https://baeksang.dev)
+**Vercel Analytics 기준 월 방문자 약 1만 명**의 AI·개발 콘텐츠 서비스입니다. 콘텐츠 수집, 중복 제거, LLM 큐레이션과 발행 파이프라인을 직접 개발해 운영합니다.
 
-## 주로 다루는 기술
+## 주요 프로젝트
 
-Kotlin / Spring Boot · TypeScript / Next.js / NestJS · Python / FastAPI · Go · PostgreSQL · Docker
+기업 의뢰로 개발한 제품입니다.
 
-AI 기능에서는 모델 연결 외에도 파일 처리, 스트리밍, 권한과 실패 처리를 함께 다룹니다.
-자세한 작업은 [포트폴리오](https://baeksang.dev/about)에 정리하고 있습니다.
+- **AskUp / Upstage** — AI 대화 백엔드, KMP 크로스플랫폼 앱과 관리자 화면. SSE·OCR·pgvector를 연결했습니다. [시연](https://www.youtube.com/watch?v=4j4Pxz3KDT0) · [상세](https://baeksang.dev/work/askup)
+- **Timely AI MCP Hub / Timely AI(현 Upstage)** — 전체 설계·개발. 외부 도구를 실행하는 에이전트와 자연어 예약·결과 알림을 구현했습니다. [웹 화면](https://timelygpt-mcp-hub-web.vercel.app)
+- **Qnova** — 교재 업로드부터 학습자료 생성, 편집·미리보기, PDF·DOCX 출력까지 전체 구현했습니다. [서비스](https://qnova.co.kr)
+
+## 오픈소스 프로젝트
+
+- [DeepCloak](https://github.com/Mrbaeksang/deepcloak) — 리서치 엔진과 브라우저를 연결한 Python CLI·MCP 도구. 수집 경로 선택과 근거 기록을 구현했습니다.
+- [Korea Stock Analyzer MCP](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp) — 한국 주식 데이터 조회·분석을 위한 MCP 서버.
+- [My Site Template](https://github.com/Mrbaeksang/my-site-template) — 화면에서 내용을 편집할 수 있는 Next.js 포트폴리오 템플릿.
+
+## 수상 · 평가 · 자격
+
+- 조코딩AX파트너스 APEX Expert AI 실무역량평가 — **2026.08 파일럿 회차 44명 중 3위, 88/100점**. 실기 55/60점 · AI 활용 10/10점.
+- **2025 AI_TOP_100 Finalist**
+- Upstage Solar Agent Partner Program **Stage 1 선정**
+- **Anthropic Academy 18종 수료**
+- **SQLD · TOEIC 815점**
+- Korea Stock Analyzer — MCP 공식 서버 디렉터리 등재 이력.
+
+Kotlin / Spring Boot · TypeScript / Next.js / NestJS · Python / FastAPI · Go · PostgreSQL · MCP
