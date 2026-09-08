@@ -34,8 +34,6 @@ TypeScript · NestJS · Next.js · BullMQ · PostgreSQL · Redis · MCP
 
 </details>
 
-[웹 화면](https://timelygpt-mcp-hub-web.vercel.app)
-
 ### AskUp · Upstage AI 대화 앱
 
 **Upstage 의뢰로 크로스플랫폼 앱·AI 대화 백엔드·관리자 화면을 개발했습니다.**
