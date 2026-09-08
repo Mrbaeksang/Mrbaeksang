@@ -1,10 +1,10 @@
 # 백상현
 
-**웹·모바일 제품을 개발하고 운영하는 풀스택 개발자입니다.**
+**핵심 가설을 작은 PoC로 검증하고, 실제 사용과 운영을 통해 제품을 확장하는 풀스택 개발자입니다.**
 
 마드라스체크에서 **OKR 서비스를 단독 개발·출시**했습니다. **[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android)를 Google Play에 출시**했으며, 직접 만든 [baeksang.dev](https://baeksang.dev)를 **월 방문자 약 1만 명** 규모로 운영합니다.
 
-[포트폴리오](https://baeksang.dev/about) · [개발 기록](https://baeksang.dev) · [이메일](mailto:qortkdgus95@gmail.com)
+[프로젝트](https://baeksang.dev/work) · [개발 철학](https://baeksang.dev/harness) · [개발 기록](https://baeksang.dev) · [이메일](mailto:qortkdgus95@gmail.com)
 
 ## 실무 경험
 
@@ -24,7 +24,7 @@ OKR에서는 목표·실행 업무 연결, 진척도 집계와 권한 관리를 
 ## 직접 개발·운영하는 서비스
 
 **[baeksang.dev](https://baeksang.dev) — 월 방문자 약 1만 명의 AI·개발 콘텐츠 서비스**  
-Vercel Analytics 기준 방문자 수입니다. 콘텐츠 수집, 중복 제거, LLM 큐레이션과 발행 파이프라인을 직접 개발해 운영합니다. [AI 다이제스트](https://baeksang.dev/daily)
+Vercel Analytics 기준 방문자 수입니다. 콘텐츠 수집, 중복 제거, LLM 큐레이션과 발행 파이프라인을 직접 개발해 운영합니다. LLM 처리 실패 후 전체 작업을 반복하지 않도록 입력 해시별 체크포인트를 저장하고, 같은 입력의 성공 결과를 재사용해 발행 작업을 재개하도록 구현했습니다. [AI 다이제스트](https://baeksang.dev/daily)
 
 **[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android) — Google Play에 출시한 AI 운세 서비스**  
 웹·모바일·백엔드를 개발했습니다. AI 상담과 대화 저장, 크레딧 과금·인앱결제를 연결하고 결제 웹훅 재전송에 대응하는 처리를 구현했습니다.
