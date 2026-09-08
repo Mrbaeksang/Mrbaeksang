@@ -1,8 +1,8 @@
 # 백상현
 
-**AI 에이전트와 웹·모바일 서비스를 개발하는 풀스택 개발자입니다.**
+**웹·모바일 제품을 개발하고 운영하는 풀스택 개발자입니다.**
 
-마드라스체크에서 OKR 서비스를 단독 개발·출시하고, 구축형 제품을 위한 로컬 LLM 에이전트를 구현했습니다. Upstage AskUp과 Timely AI MCP Hub를 개발했으며, 직접 만든 [baeksang.dev](https://baeksang.dev)를 **월 방문자 약 1만 명** 규모로 운영합니다.
+마드라스체크에서 **OKR 서비스를 단독 개발·출시**했습니다. **[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android)를 Google Play에 출시**했으며, 직접 만든 [baeksang.dev](https://baeksang.dev)를 **월 방문자 약 1만 명** 규모로 운영합니다.
 
 [포트폴리오](https://baeksang.dev/about) · [개발 기록](https://baeksang.dev) · [이메일](mailto:qortkdgus95@gmail.com)
 
@@ -21,18 +21,23 @@ OKR에서는 목표·실행 업무 연결, 진척도 집계와 권한 관리를 
 
 </details>
 
-### Timely AI MCP Hub · 전체 설계·개발
+## 직접 개발·운영하는 서비스
 
-**Timely AI(현 Upstage) 의뢰로, 외부 도구 실행부터 예약 작업과 결과 알림까지 연결한 MCP Hub를 개발했습니다.**
+**[baeksang.dev](https://baeksang.dev) — 월 방문자 약 1만 명의 AI·개발 콘텐츠 서비스**  
+Vercel Analytics 기준 방문자 수입니다. 콘텐츠 수집, 중복 제거, LLM 큐레이션과 발행 파이프라인을 직접 개발해 운영합니다. [AI 다이제스트](https://baeksang.dev/daily)
 
-<details>
-<summary>에이전트와 예약 실행 구현 보기</summary>
+**[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android) — Google Play에 출시한 AI 운세 서비스**  
+웹·모바일·백엔드를 개발했습니다. AI 상담과 대화 저장, 크레딧 과금·인앱결제를 연결하고 결제 웹훅 재전송에 대응하는 처리를 구현했습니다.
 
-외부 API와 업무 도구를 연동하고, 실행 결과에 따라 다음 도구를 호출하는 에이전트 흐름을 구현했습니다. 병렬 도구 실행, 진행 상태 스트리밍, 자연어 예약과 결과 알림을 연결하고 예약 실행 이력과 실패 상태를 기록하도록 구성했습니다.
+## 오픈소스 프로젝트
 
-TypeScript · NestJS · Next.js · BullMQ · PostgreSQL · Redis · MCP
+- **[DeepCloak](https://github.com/Mrbaeksang/deepcloak)** — 리서치 엔진과 브라우저를 연결한 Python CLI·MCP 도구. 수집 경로 선택과 근거 기록을 구현했습니다.
+- **[My Site Template](https://github.com/Mrbaeksang/my-site-template)** — 화면에서 내용을 편집할 수 있는 Next.js 포트폴리오 템플릿. [활용 강의](https://www.youtube.com/watch?v=U6zL8qittGk)
+- **[Korea Stock Analyzer MCP](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp)** — DART 공시와 KRX 시세를 조회·분석하는 Python MCP 서버.
 
-</details>
+GitHub Stars: **DeepCloak 60 · My Site Template 94 · Korea Stock Analyzer MCP 23** — 2026.09.08 기준
+
+## 기업 의뢰 프로젝트
 
 ### AskUp · Upstage AI 대화 앱
 
@@ -55,21 +60,18 @@ Kotlin · Spring Boot · Spring AI · Kotlin Multiplatform · Next.js · Postgre
 
 [서비스](https://qnova.co.kr)
 
-## 직접 개발·운영하는 서비스
+### Timely AI MCP Hub · 전체 설계·개발
 
-**[baeksang.dev](https://baeksang.dev) — 월 방문자 약 1만 명의 AI·개발 콘텐츠 서비스**  
-Vercel Analytics 기준 방문자 수입니다. 콘텐츠 수집, 중복 제거, LLM 큐레이션과 발행 파이프라인을 직접 개발해 운영합니다. [AI 다이제스트](https://baeksang.dev/daily)
+**Timely AI(현 Upstage) 의뢰로, 외부 도구 실행부터 예약 작업과 결과 알림까지 연결한 MCP Hub를 설계·개발하고 소스코드를 전달했습니다.**
 
-**[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android) — Google Play에 출시한 AI 운세 서비스**  
-웹·모바일·백엔드를 개발했습니다. AI 상담과 대화 저장, 크레딧 과금·인앱결제를 연결하고 결제 웹훅 재전송에 대응하는 처리를 구현했습니다.
+<details>
+<summary>에이전트와 예약 실행 구현 보기</summary>
 
-## 오픈소스 프로젝트
+외부 API와 업무 도구를 연동하고, 실행 결과에 따라 다음 도구를 호출하는 에이전트 흐름을 구현했습니다. 병렬 도구 실행, 진행 상태 스트리밍, 자연어 예약과 결과 알림을 연결하고 예약 실행 이력과 실패 상태를 기록하도록 구성했습니다.
 
-- **[DeepCloak](https://github.com/Mrbaeksang/deepcloak)** — 리서치 엔진과 브라우저를 연결한 Python CLI·MCP 도구. 수집 경로 선택과 근거 기록을 구현했습니다.
-- **[My Site Template](https://github.com/Mrbaeksang/my-site-template)** — 화면에서 내용을 편집할 수 있는 Next.js 포트폴리오 템플릿. [활용 강의](https://www.youtube.com/watch?v=U6zL8qittGk)
-- **[Korea Stock Analyzer MCP](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp)** — DART 공시와 KRX 시세를 조회·분석하는 Python MCP 서버.
+TypeScript · NestJS · Next.js · BullMQ · PostgreSQL · Redis · MCP
 
-GitHub Stars: **DeepCloak 60 · My Site Template 94 · Korea Stock Analyzer MCP 23** — 2026.09.08 기준
+</details>
 
 ## 수상 · 평가 · 자격
 
