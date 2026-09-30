@@ -1,6 +1,6 @@
-# 백상현
+# 백상현 · Sanghyeon Baek
 
-**핵심 가설을 작은 PoC로 검증하고, 실제 사용과 운영을 통해 제품을 확장하는 풀스택 개발자입니다.**
+**Full-stack & AI Product Engineer. 웹·백엔드·모바일·AI·인프라를 연결해 핵심 가설을 작은 PoC로 검증하고, 실제 사용과 운영을 통해 제품을 확장합니다.**
 
 마드라스체크에서 **OKR 서비스를 단독 개발·출시**했습니다. **[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android)를 Google Play에 출시**했으며, 직접 만든 [baeksang.dev](https://baeksang.dev)를 **월 방문자 약 1만 명** 규모로 운영합니다.
 
@@ -91,6 +91,7 @@ TypeScript · NestJS · Next.js · BullMQ · PostgreSQL · Redis · MCP
 
 ## 주로 사용하는 기술
 
-**AI·백엔드** · MCP, LangGraph, vLLM, Kotlin/Spring Boot, Python/FastAPI, TypeScript/NestJS  
-**웹·모바일** · React, Next.js, Kotlin Multiplatform  
-**데이터·운영** · PostgreSQL, pgvector, Redis, Docker
+**백엔드·런타임** · Kotlin/Spring Boot, TypeScript/NestJS, Hono/Bun, Python/FastAPI, Go  
+**AI·에이전트** · MCP, LangGraph, vLLM, OpenRouter, tool-use/agent workflows  
+**웹·모바일** · Next.js/React, Kotlin Multiplatform/Compose Multiplatform  
+**데이터·운영** · PostgreSQL, pgvector, Redis, Docker, AWS, Railway, Vercel
