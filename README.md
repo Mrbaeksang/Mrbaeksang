@@ -2,7 +2,7 @@
 
 **Full-stack & AI Product Engineer. 웹·백엔드·모바일·AI·인프라를 연결해 핵심 가설을 작은 PoC로 검증하고, 실제 사용과 운영을 통해 제품을 확장합니다.**
 
-마드라스체크에서 **OKR 서비스를 단독 개발·출시**했습니다. **[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android)를 Google Play에 출시**했으며, 직접 만든 [baeksang.dev](https://baeksang.dev)를 **월 방문자 약 1만 명** 규모로 운영합니다.
+마드라스체크에서 **OKR 서비스를 단독 개발·출시**했습니다. **[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android)를 Google Play에 출시**했으며, 직접 만든 [baeksang.dev](https://baeksang.dev)를 **월평균 방문자 약 1만 명** 규모로 운영합니다.
 
 [프로젝트](https://baeksang.dev/work) · [개발 철학](https://baeksang.dev/harness) · [개발 기록](https://baeksang.dev) · [이메일](mailto:qortkdgus95@gmail.com)
 
@@ -11,23 +11,26 @@
 ### 마드라스체크 · 제품 개발과 개발팀 자동화
 
 - **OKR 서비스 단독 개발·출시** — 기획부터 웹·백엔드 개발과 배포까지 담당했습니다.
-- **로컬 LLM 에이전트 구현** — 리패턴 구축형 제품에 적용할 자체 호스팅 모델의 업무 도구 실행 흐름을 개발했습니다.
-- **QA 대응 자동화** — 저장소에 등록된 QA 이슈를 주기적으로 수집하고 해결 작업을 실행하는 로직을 개발했습니다.
+- **Flow AI 로컬 LLM 연동** — 외부 AI API를 사용할 수 없는 기업을 위해 자체 호스팅 모델 연동을 개발했습니다. Qwen·Gemma 계열의 양자화·비양자화 모델을 비교하며 응답 속도와 품질을 검토했습니다.
+- **Workflow Agent 구현** — 업무 도구의 계획·실행·결과 검증·재계획 흐름을 개발했습니다.
+- **QA 대응 자동화·Playwright 테스트** — 저장소에 등록된 QA 이슈를 주기적으로 수집하고 해결 작업을 실행하는 로직과 Playwright 기반 테스트를 구현했습니다.
 
 <details>
 <summary>구현 내용 보기</summary>
 
-OKR에서는 목표·실행 업무 연결, 진척도 집계와 권한 관리를 구현했습니다. 리패턴에서는 상용 AI 중심의 기존 구성에 자체 호스팅 모델을 사용하는 경로를 마련하고, 업무 도구의 계획·실행·결과 검증·재계획을 구현했습니다. 구축형 제품 적용을 위한 개발입니다.
+OKR에서는 목표·실행 업무 연결, 진척도 집계와 권한 관리를 구현했습니다. Flow AI의 로컬 모델 연동과 Workflow Agent의 업무 도구 실행 흐름은 구분해 개발했습니다. AI사업개발실 팀으로 분기 혁신성과상을 받았습니다.
 
 </details>
 
 ## 직접 개발·운영하는 서비스
 
-**[baeksang.dev](https://baeksang.dev) — 월 방문자 약 1만 명의 AI·개발 콘텐츠 서비스**  
-Vercel Analytics 기준 방문자 수입니다. 콘텐츠 수집, 중복 제거, LLM 큐레이션과 발행 파이프라인을 직접 개발해 운영합니다. LLM 처리 실패 후 전체 작업을 반복하지 않도록 입력 해시별 체크포인트를 저장하고, 같은 입력의 성공 결과를 재사용해 발행 작업을 재개하도록 구현했습니다. [AI 다이제스트](https://baeksang.dev/daily)
+**[baeksang.dev](https://baeksang.dev) — 월평균 방문자 약 1만 명의 AI·개발 콘텐츠 서비스**
 
-**[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android) — Google Play에 출시한 AI 운세 서비스**  
-웹·모바일·백엔드를 개발했습니다. AI 상담과 대화 저장, 크레딧 과금·인앱결제를 연결하고 결제 웹훅 재전송에 대응하는 처리를 구현했습니다.
+Vercel Analytics 기준 방문자 수입니다. 콘텐츠 수집, 중복 제거, LLM 큐레이션과 발행 파이프라인을 직접 개발해 운영합니다. LLM 처리 실패 후 전체 작업을 반복하지 않도록 입력 해시별 체크포인트를 저장하고, 같은 입력의 성공 결과를 재사용해 발행 작업을 재개하도록 구현했습니다. 독자 요청을 반영해 직접 쓴 글을 모은 Notes와 이메일 뉴스레터도 구현했습니다. [AI 다이제스트](https://baeksang.dev/daily) · [Notes](https://baeksang.dev/notes)
+
+**[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android) — Google Play·앱인토스에 출시한 AI 운세 서비스**
+
+웹·모바일·백엔드를 개발했습니다. AI 상담과 대화 저장, 크레딧 과금·인앱결제를 연결하고 결제 웹훅 재전송에 대응하는 처리를 구현했습니다. **가입 회원 2,200명 · Google Play 누적 설치 674건**이며 실제 결제가 발생한 서비스입니다. 수치는 2026년 10월 기준입니다.
 
 ## 오픈소스 프로젝트
 
@@ -39,7 +42,7 @@ GitHub Stars: **DeepCloak 60 · My Site Template 94 · Korea Stock Analyzer MCP 
 
 ## 기업 의뢰 프로젝트
 
-### AskUp · Upstage AI 대화 앱
+### AskUp · Upstage 의뢰 AI 대화 앱
 
 **Upstage 의뢰로 크로스플랫폼 앱·AI 대화 백엔드·관리자 화면을 개발했습니다.**
 
@@ -62,7 +65,7 @@ Kotlin · Spring Boot · Spring AI · Kotlin Multiplatform · Next.js · Postgre
 
 ### Timely AI MCP Hub · 전체 설계·개발
 
-**Timely AI(현 Upstage) 의뢰로, 외부 도구 실행부터 예약 작업과 결과 알림까지 연결한 MCP Hub를 설계·개발하고 소스코드를 전달했습니다.**
+**Timely AI 의뢰로, 외부 도구 실행부터 예약 작업과 결과 알림까지 연결한 MCP Hub를 설계·개발하고 소스코드를 전달했습니다.**
 
 <details>
 <summary>에이전트와 예약 실행 구현 보기</summary>
