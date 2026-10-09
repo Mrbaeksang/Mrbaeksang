@@ -1,100 +1,146 @@
-# 백상현 · Sanghyeon Baek
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/ai/hero-dark.png">
+<source media="(prefers-color-scheme: light)" srcset="assets/ai/hero-light.png">
+<img src="assets/ai/hero-light.png" width="100%" alt="백상현 — Full-stack AI Product Engineer. vLLM 모델 서빙, Agent 도구 실행·검증·재계획, AI 제품의 출시와 운영.">
+</picture>
 
-**Full-stack & AI Product Engineer. 웹·백엔드·모바일·AI·인프라를 연결해 핵심 가설을 작은 PoC로 검증하고, 실제 사용과 운영을 통해 제품을 확장합니다.**
+# 백상현
+**기업의 제약 안에서 AI를 제품으로 작동시키는 엔지니어.**
 
-마드라스체크에서 **OKR 서비스를 단독 개발·출시**했습니다. **[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android)를 Google Play에 출시**했으며, 직접 만든 [baeksang.dev](https://baeksang.dev)를 **월평균 방문자 약 1만 명** 규모로 운영합니다.
+외부 API를 쓸 수 없는 환경의 **vLLM 모델 서빙**, **도구를 실행하고 결과를 검증하는 Agent**, **실패해도 다시 이어지는 AI 제품**을 개발합니다. 문제 정의부터 웹·앱·백엔드 구현, 출시 후 운영까지 맡습니다.
 
-[프로젝트](https://baeksang.dev/work) · [개발 철학](https://baeksang.dev/harness) · [개발 기록](https://baeksang.dev) · [이메일](mailto:qortkdgus95@gmail.com)
+[프로젝트](https://baeksang.dev/work) · [개발 철학](https://baeksang.dev/harness) · [글](https://baeksang.dev/notes) · [이메일](mailto:qortkdgus95@gmail.com)
 
-## 실무 경험
+<table>
+<tr>
+<td width="24%" align="center"><img src="assets/ai/ai-top100-finalist.png" width="144" alt="2025 AI_TOP_100 Finalist — 본선 진출"></td>
+<td>
+<strong>2025 AI_TOP_100 · Finalist</strong> · 본선 진출<br>
+<strong>APEX Expert AI · 파일럿 44명 중 3위</strong><br>
+88/100점 · 실기 55/60 · AI 활용 10/10 <sub>(2026.08)</sub><br>
+<strong>Upstage Solar Agent Partner Program</strong><br>
+Stage 1 선정 <sub>(2026.07)</sub>
+</td>
+</tr>
+</table>
 
-### 마드라스체크 · 제품 개발과 개발팀 자동화
+## AI를 제품에 연결한 기술 판단
 
-- **OKR 서비스 단독 개발·출시** — 기획부터 웹·백엔드 개발과 배포까지 담당했습니다.
-- **Flow AI 로컬 LLM 연동** — 외부 AI API를 사용할 수 없는 기업을 위해 자체 호스팅 모델 연동을 개발했습니다. Qwen·Gemma 계열의 양자화·비양자화 모델을 비교하며 응답 속도와 품질을 검토했습니다.
-- **Workflow Agent 구현** — 업무 도구의 계획·실행·결과 검증·재계획 흐름을 개발했습니다.
-- **QA 대응 자동화·Playwright 테스트** — 저장소에 등록된 QA 이슈를 주기적으로 수집하고 해결 작업을 실행하는 로직과 Playwright 기반 테스트를 구현했습니다.
+### 마드라스체크 · Flow AI에서 제품 운영까지
+**2026.04–현재 · AI사업개발실 · 책임**
+
+**Flow AI — 모델을 붙이는 데서, 실행을 완성하는 데까지**
+- **API 제약 → 자체 모델 서빙.** 외부 AI API 사용이 제한된 고객을 위해 Qwen·Gemma 계열을 **vLLM으로 서빙**하고, 양자화 전후 응답 속도와 품질을 비교했습니다.
+- **도구 호출 → 결과 검증.** Workflow Agent의 **계획 → 도구 실행 → 결과 검증 → 실패 시 재계획** 흐름을 구현했습니다.
+- **개발 → 검증 자동화.** QA 이슈 대응 Agent와 **Playwright 테스트**로 화면 겹침·상호작용 회귀를 확인하는 흐름을 개발했습니다.
 
 <details>
-<summary>구현 내용 보기</summary>
+<summary><strong>같은 회사에서: OKR SaaS · 자발적으로 만든 사내 업무 솔루션</strong></summary>
 
-OKR에서는 목표·실행 업무 연결, 진척도 집계와 권한 관리를 구현했습니다. Flow AI의 로컬 모델 연동과 Workflow Agent의 업무 도구 실행 흐름은 구분해 개발했습니다. AI사업개발실 팀으로 분기 혁신성과상을 받았습니다.
+**OKR SaaS**를 기획부터 프론트엔드·백엔드·DB·배포까지 단독 개발·출시했습니다. 유료 고객이 사용하는 제품의 목표 계층·사용자별 접근 권한과 변경·삭제 영향을 설계하고, 배포 시 기존 연결 정리와 고객 피드백 반영까지 담당했습니다.
+
+교육용 Excel 요청을 일정·교육생·수강 현황 관리 문제로 재정의해 담당자가 쓰는 솔루션으로 만들었습니다. 일일 Excel 스캔과 사내 챗봇을 연결한 지출결의 기한 알림도 운영합니다.
+
+AI사업개발실에서 분기 혁신상을 받았습니다. **마드라스체크의 Flow Repattern은 2026 국가 AI 대상 서울특별시장상을 수상했습니다.** 이 항목은 회사·제품의 성과입니다. [공개 보도](https://zdnet.co.kr/view/?no=20260928113805)
 
 </details>
 
-## 직접 개발·운영하는 서비스
+### 기업 의뢰 · AI 경험을 안정적인 실행으로
 
-**[baeksang.dev](https://baeksang.dev) — 월평균 방문자 약 1만 명의 AI·개발 콘텐츠 서비스**
+**AskUp · Upstage 의뢰** <sub>2025.11–2026.02</sub>  
+KMP 앱·Spring Boot 백엔드·관리자 화면을 개발하고 **SSE 스트리밍, OCR 문서 처리, pgvector 기반 대화 기억**을 연결했습니다. 네트워크 chunk 경계에서 JSON이 잘리는 문제는 **완전한 SSE 줄을 재조립한 뒤 변환**하도록 해결했습니다.  
+[공개 시연](https://www.youtube.com/watch?v=4j4Pxz3KDT0) · [프로젝트 기록](https://baeksang.dev/work/askup)
 
-Vercel Analytics 기준 방문자 수입니다. 콘텐츠 수집, 중복 제거, LLM 큐레이션과 발행 파이프라인을 직접 개발해 운영합니다. LLM 처리 실패 후 전체 작업을 반복하지 않도록 입력 해시별 체크포인트를 저장하고, 같은 입력의 성공 결과를 재사용해 발행 작업을 재개하도록 구현했습니다. 독자 요청을 반영해 직접 쓴 글을 모은 Notes와 이메일 뉴스레터도 구현했습니다. [AI 다이제스트](https://baeksang.dev/daily) · [Notes](https://baeksang.dev/notes)
-
-**[사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android) — Google Play·앱인토스에 출시한 AI 운세 서비스**
-
-웹·모바일·백엔드를 개발했습니다. AI 상담과 대화 저장, 크레딧 과금·인앱결제를 연결하고 결제 웹훅 재전송에 대응하는 처리를 구현했습니다. **가입 회원 2,200명 · Google Play 누적 설치 674건**이며 실제 결제가 발생한 서비스입니다. 수치는 2026년 10월 기준입니다.
-
-## 오픈소스 프로젝트
-
-- **[DeepCloak](https://github.com/Mrbaeksang/deepcloak)** — 리서치 엔진과 브라우저를 연결한 Python CLI·MCP 도구. 수집 경로 선택과 근거 기록을 구현했습니다.
-- **[My Site Template](https://github.com/Mrbaeksang/my-site-template)** — 화면에서 내용을 편집할 수 있는 Next.js 포트폴리오 템플릿. [활용 강의](https://www.youtube.com/watch?v=U6zL8qittGk)
-- **[Korea Stock Analyzer MCP](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp)** — DART 공시와 KRX 시세를 조회·분석하는 Python MCP 서버.
-
-GitHub Stars: **DeepCloak 60 · My Site Template 94 · Korea Stock Analyzer MCP 23** — 2026.09.08 기준
-
-## 기업 의뢰 프로젝트
-
-### AskUp · Upstage 의뢰 AI 대화 앱
-
-**Upstage 의뢰로 크로스플랫폼 앱·AI 대화 백엔드·관리자 화면을 개발했습니다.**
+**Timely AI MCP Hub · 전체 설계·개발·소스 전달** <sub>2026.04–2026.06</sub>  
+외부 업무 도구를 연결하고, 실행 결과에 따라 다음 Tool을 선택하는 Agent·병렬 실행·상태 스트리밍·예약·알림을 구현했습니다. **저장된 도구명과 인자는 코드가 직접 실행**하고, 반복 실패한 예약은 자동 비활성화했습니다.
 
 <details>
-<summary>대화·문서 처리 구현 보기</summary>
+<summary>예약 실행에서 LLM과 코드의 역할을 나눈 판단</summary>
 
-Kotlin Multiplatform 앱에 AI 응답 스트리밍, OCR 문서 처리와 pgvector 기반 대화 기억을 구현했습니다. OAuth 로그인과 토큰 갱신, 대화 저장을 앱과 백엔드에 연결했습니다.
-
-Kotlin · Spring Boot · Spring AI · Kotlin Multiplatform · Next.js · PostgreSQL
+브리핑 누락과 도구의 조기 종료·반복 호출을 고객과 검토했습니다. 자연어로 예약을 등록하는 과정과 확정된 작업 실행을 분리하고, LLM에는 결과 취합을 맡기는 방안을 **제안**했습니다. 실제 구현에서는 저장된 도구명·인자를 코드로 실행하고 실행 이력·실패 상태를 기록했습니다. 제안한 범위와 구현한 범위를 구분합니다.
 
 </details>
 
-[시연 영상](https://www.youtube.com/watch?v=4j4Pxz3KDT0) · [프로젝트 상세](https://baeksang.dev/work/askup)
-
-### Qnova · 영어 학습자료 생성 서비스
-
-**교재 업로드 → 학습자료 생성 → 편집·미리보기 → PDF·DOCX 출력까지 전체 개발했습니다.** 강사가 생성 결과를 확인하고 수정해 수업 자료로 사용할 수 있는 흐름을 구현했습니다.
-
+**Qnova · 교재 기반 학습자료 생성 서비스 전체 개발** <sub>2026.02–2026.06</sub>  
+업로드 → 생성 → 검토·수정 → PDF·DOCX 출력까지 구현했습니다. 긴 AI 작업은 **작업 ID를 즉시 반환하고 DB에 상태·진행률·결과를 저장**해 재접속 후에도 조회하도록 구성했습니다. 서버 재시작 뒤 남은 실행 중 작업은 실패 상태로 정리했습니다.  
 [서비스](https://qnova.co.kr)
 
-### Timely AI MCP Hub · 전체 설계·개발
+## 직접 출시하고 운영하는 제품
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/ai/saju-dark.png">
+<source media="(prefers-color-scheme: light)" srcset="assets/ai/saju-light.png">
+<img src="assets/ai/saju-light.png" width="100%" alt="Saju박사 — AI 상담 서비스. 웹·앱 출시·운영.">
+</picture>
 
-**Timely AI 의뢰로, 외부 도구 실행부터 예약 작업과 결과 알림까지 연결한 MCP Hub를 설계·개발하고 소스코드를 전달했습니다.**
+### [Saju박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android)
+**웹·앱 출시·운영**  
+웹·모바일·백엔드를 개발하고 AI 상담, 대화 저장, 크레딧 과금·인앱결제를 연결했습니다. 결제 Webhook의 처리 상태를 원장에 남기고, 중복 전달과 내부 재시도를 분리해 실패 이벤트를 재처리합니다.
 
 <details>
-<summary>에이전트와 예약 실행 구현 보기</summary>
+<summary>실제 공개 앱 화면</summary>
 
-외부 API와 업무 도구를 연동하고, 실행 결과에 따라 다음 도구를 호출하는 에이전트 흐름을 구현했습니다. 병렬 도구 실행, 진행 상태 스트리밍, 자연어 예약과 결과 알림을 연결하고 예약 실행 이력과 실패 상태를 기록하도록 구성했습니다.
+<img src="assets/saju-public-screen.webp" width="220" alt="사주박사 공개 소개 화면 — 월령공주 상담 캐릭터 선택">
 
-TypeScript · NestJS · Next.js · BullMQ · PostgreSQL · Redis · MCP
+공개된 제품 소개 화면입니다. [출시 회고](https://baeksang.dev/notes/토스-미니앱-google-play-동시-출시-회고-사주박사)
 
 </details>
 
-## 수상 · 평가 · 자격
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/ai/daily-dark.png">
+<source media="(prefers-color-scheme: light)" srcset="assets/ai/daily-light.png">
+<img src="assets/ai/daily-light.png" width="100%" alt="baeksang.dev — AI 콘텐츠 파이프라인. 월간 방문자 약 1만, 직접 개발·운영.">
+</picture>
 
-- **APEX Expert AI 실무역량평가 — 44명 중 3위 · 88/100점**  
-  조코딩AX파트너스, 2026.08 파일럿 회차. 실기 **55/60점** · AI 활용 **10/10점**.
-- **2025 AI_TOP_100 Finalist**
-- **Upstage Solar Agent Partner Program Stage 1 선정**
+### [baeksang.dev](https://baeksang.dev)
+**월간 방문자 약 1만 · AI 콘텐츠 파이프라인**  
+<sub>Vercel Analytics 방문자 기준 · 2026.10 확인</sub>  
+수집·중복 제거·LLM 큐레이션·발행을 자동화했습니다. 입력 해시와 체크포인트로 성공한 단계의 결과를 재사용해 **실패 지점부터 재개**하고, OpenRouter 429·503·timeout에 재시도 정책을 적용했습니다. 독자의 요청을 Notes와 뉴스레터로 연결해 운영합니다.
 
 <details>
-<summary>교육 · 자격 · 어학 보기</summary>
+<summary>실제 공개 웹 화면</summary>
 
-- **Anthropic Academy 18종 수료**
-- **SQLD** · 한국데이터산업진흥원
-- **TOEIC 815점**
+<img src="assets/baeksang-public-screen.png" width="800" alt="baeksang.dev 공개 AI 브리핑 페이지">
+
+[AI 브리핑](https://baeksang.dev/daily) · [파이프라인 개발 기록](https://baeksang.dev/notes/매일-아침-8시-ai가-개발-뉴스를-자동-큐레이션하기까지)
 
 </details>
 
-## 주로 사용하는 기술
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/ai/deepcloak-dark.png">
+<source media="(prefers-color-scheme: light)" srcset="assets/ai/deepcloak-light.png">
+<img src="assets/ai/deepcloak-light.png" width="100%" alt="DeepCloak — 검색·검증·근거 정리를 연결하는 오픈소스 Research CLI와 MCP.">
+</picture>
 
-**백엔드·런타임** · Kotlin/Spring Boot, TypeScript/NestJS, Hono/Bun, Python/FastAPI, Go  
-**AI·에이전트** · MCP, LangGraph, vLLM, OpenRouter, tool-use/agent workflows  
-**웹·모바일** · Next.js/React, Kotlin Multiplatform/Compose Multiplatform  
-**데이터·운영** · PostgreSQL, pgvector, Redis, Docker, AWS, Railway, Vercel
+### [DeepCloak](https://github.com/Mrbaeksang/deepcloak)
+**Python CLI + MCP · 공개 소스와 실행 데모**  
+리서치 엔진을 CLI와 MCP로 제공하고, 정보 검증과 근거 정리를 구현했습니다.
+
+<img src="assets/deepcloak-public-demo.gif" width="760" alt="DeepCloak의 공개 CLI 실행 데모. 검색과 조사 진행 과정.">
+
+<sub>공개 저장소의 실제 실행 데모입니다.</sub>
+
+**함께 공개한 코드**  
+[**Korea Stock Analyzer MCP**](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp) · DART 공시·KRX 시세 조회·분석  
+[**My Site Template**](https://github.com/Mrbaeksang/my-site-template) · 화면에서 내용을 편집하는 Next.js 포트폴리오 템플릿
+
+## 기술 · 모델부터 사용자 화면까지
+<p>
+<img src="assets/icons/python.png" width="40" height="40" alt="Python">
+<img src="assets/icons/typescript.png" width="40" height="40" alt="TypeScript">
+<img src="assets/icons/kotlin.png" width="40" height="40" alt="Kotlin">
+<img src="assets/icons/react.png" width="40" height="40" alt="React">
+<img src="assets/icons/postgresql.png" width="40" height="40" alt="PostgreSQL">
+<img src="assets/icons/docker.png" width="40" height="40" alt="Docker">
+</p>
+
+**AI·Agent** · vLLM · MCP · LangGraph · Spring AI · OpenRouter  
+**웹·모바일** · Next.js/React · Kotlin Multiplatform/Compose  
+**백엔드** · Spring Boot · NestJS · Hono/Bun · FastAPI · Go  
+**데이터·운영** · PostgreSQL/pgvector · Redis · SQLite · Docker · AWS · Railway · Vercel
+
+<details>
+<summary>교육 · 자격</summary>
+
+Anthropic Academy 18개 수료 · SQLD · TOEIC 815
+
+</details>
