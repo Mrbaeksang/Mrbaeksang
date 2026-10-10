@@ -1,13 +1,15 @@
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/ai/hero-dark.png">
-<source media="(prefers-color-scheme: light)" srcset="assets/ai/hero-light.png">
-<img src="assets/ai/hero-light.png" width="100%" alt="백상현 — Full-stack AI Product Engineer. vLLM 모델 서빙, Agent 도구 실행·검증·재계획, AI 제품의 출시와 운영.">
+<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/terminal/classic-mobile-dark.png">
+<source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/terminal/classic-mobile-light.png">
+<source media="(prefers-color-scheme: dark)" srcset="assets/terminal/classic-desktop-dark.png">
+<source media="(prefers-color-scheme: light)" srcset="assets/terminal/classic-desktop-light.png">
+<img src="assets/terminal/classic-desktop-light.png" width="100%" alt="백상현 — Full-stack AI Product Engineer.">
 </picture>
 
 # 백상현
-**기업의 제약 안에서 AI를 제품으로 작동시키는 엔지니어.**
+**문제를 제품으로 만들고, 출시 후 운영까지 책임지는 엔지니어.**
 
-외부 API를 쓸 수 없는 환경의 **vLLM 모델 서빙**, **도구를 실행하고 결과를 검증하는 Agent**, **실패해도 다시 이어지는 AI 제품**을 개발합니다. 문제 정의부터 웹·앱·백엔드 구현, 출시 후 운영까지 맡습니다.
+문제 정의부터 웹·앱·백엔드 구현, AI·외부 도구 연동, 배포와 운영까지 이어갑니다. 직접 출시한 제품과 기업 프로젝트에서 사용자 경험과 안정적인 실행 흐름을 함께 설계합니다.
 
 [프로젝트](https://baeksang.dev/work) · [개발 철학](https://baeksang.dev/harness) · [글](https://baeksang.dev/notes) · [이메일](mailto:qortkdgus95@gmail.com)
 
@@ -24,15 +26,15 @@ Stage 1 선정 <sub>(2026.07)</sub>
 </tr>
 </table>
 
-## AI를 제품에 연결한 기술 판단
+## 제품 개발과 AI를 함께 연결한 경험
 
 ### 마드라스체크 · Flow AI에서 제품 운영까지
 **2026.04–현재 · AI사업개발실 · 책임**
 
-**Flow AI — 모델을 붙이는 데서, 실행을 완성하는 데까지**
-- **API 제약 → 자체 모델 서빙.** 외부 AI API 사용이 제한된 고객을 위해 Qwen·Gemma 계열을 **vLLM으로 서빙**하고, 양자화 전후 응답 속도와 품질을 비교했습니다.
+**Flow AI — AI 기능을 업무 흐름과 제품으로 연결**
 - **도구 호출 → 결과 검증.** Workflow Agent의 **계획 → 도구 실행 → 결과 검증 → 실패 시 재계획** 흐름을 구현했습니다.
 - **개발 → 검증 자동화.** QA 이슈 대응 Agent와 **Playwright 테스트**로 화면 겹침·상호작용 회귀를 확인하는 흐름을 개발했습니다.
+- **API 제약 → 자체 모델 서빙.** 외부 AI API 사용이 제한된 고객을 위해 Qwen·Gemma 계열을 vLLM으로 서빙하고, 양자화 전후 응답 속도와 품질을 비교했습니다.
 
 <details>
 <summary><strong>같은 회사에서: OKR SaaS · 자발적으로 만든 사내 업무 솔루션</strong></summary>
@@ -123,7 +125,7 @@ KMP 앱·Spring Boot 백엔드·관리자 화면을 개발하고 **SSE 스트리
 [**Korea Stock Analyzer MCP**](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp) · DART 공시·KRX 시세 조회·분석  
 [**My Site Template**](https://github.com/Mrbaeksang/my-site-template) · 화면에서 내용을 편집하는 Next.js 포트폴리오 템플릿
 
-## 기술 · 모델부터 사용자 화면까지
+## 기술 · 사용자 화면부터 서비스 운영까지
 <p>
 <img src="assets/icons/python.png" width="40" height="40" alt="Python">
 <img src="assets/icons/typescript.png" width="40" height="40" alt="TypeScript">
@@ -133,10 +135,10 @@ KMP 앱·Spring Boot 백엔드·관리자 화면을 개발하고 **SSE 스트리
 <img src="assets/icons/docker.png" width="40" height="40" alt="Docker">
 </p>
 
-**AI·Agent** · vLLM · MCP · LangGraph · Spring AI · OpenRouter  
 **웹·모바일** · Next.js/React · Kotlin Multiplatform/Compose  
 **백엔드** · Spring Boot · NestJS · Hono/Bun · FastAPI · Go  
 **데이터·운영** · PostgreSQL/pgvector · Redis · SQLite · Docker · AWS · Railway · Vercel
+**AI·Agent** · MCP · LangGraph · Spring AI · OpenRouter   · vLLM
 
 <details>
 <summary>교육 · 자격</summary>
