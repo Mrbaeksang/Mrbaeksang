@@ -71,10 +71,10 @@ KMP 앱·Spring Boot 백엔드·관리자 화면을 개발하고 **SSE 스트리
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="assets/ai/saju-dark.png">
 <source media="(prefers-color-scheme: light)" srcset="assets/ai/saju-light.png">
-<img src="assets/ai/saju-light.png" width="100%" alt="Saju박사 — AI 상담 서비스. 웹·앱 출시·운영.">
+<img src="assets/ai/saju-light.png" width="100%" alt="사주박사 — AI 상담 서비스. 웹·앱 출시·운영.">
 </picture>
 
-### [Saju박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android)
+### [사주박사](https://play.google.com/store/apps/details?id=com.sajubaksa.android)
 **웹·앱 출시·운영**  
 웹·모바일·백엔드를 개발하고 AI 상담, 대화 저장, 크레딧 과금·인앱결제를 연결했습니다. 결제 Webhook의 처리 상태를 원장에 남기고, 중복 전달과 내부 재시도를 분리해 실패 이벤트를 재처리합니다.
 
