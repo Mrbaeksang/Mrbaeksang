@@ -69,7 +69,7 @@
 
 <sub>포트폴리오에 공개한 실제 앱 화면 · 캐릭터 선택 / 운세 / 타로</sub>
 
-캐릭터와 대화하는 AI 운세 서비스. 웹·모바일·백엔드와 상담 기록, 크레딧·인앱결제를 개발하고 Google Play에 출시했습니다.
+캐릭터와 대화하는 AI 운세 서비스. 웹·모바일·백엔드와 상담 기록, 크레딧·인앱결제를 개발하고 Google Play와 토스 앱인토스에 출시했습니다.
 
 [Google Play](https://play.google.com/store/apps/details?id=com.sajubaksa.android) · [개발 기록](https://baeksang.dev/notes/토스-미니앱-google-play-동시-출시-회고-사주박사)
 
@@ -104,14 +104,15 @@ AI·개발 소식의 수집 → 중복 제거 → 분류·편집 → 발행을 �
 <sub>공개 저장소의 실제 실행 데모입니다.</sub>
 
 - [Korea Stock Analyzer MCP](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp) — DART 공시·KRX 시세 조회·분석
+- [Skills 플러그인](https://github.com/Mrbaeksang/skills) — 요구사항 구체화·작업 분할·구현·검증 절차를 재사용하는 AI 네이티브 개발 워크플로 플러그인
 - [My Site Template](https://github.com/Mrbaeksang/my-site-template) — 화면에서 내용을 편집하는 Next.js 포트폴리오 템플릿
 
 ## 현재 하는 일
 
 **마드라스체크 · AI사업개발실 책임** · 2026.04–현재
 
-- **Flow AI** — 계획·도구 실행·결과 검증을 연결하는 Agent와 제품 기능 개발
-- **OKR SaaS** — 프론트엔드·백엔드·DB·배포를 단독 개발해 출시하고, 유료 고객 피드백을 반영하며 운영
+- **Flow MCP** — 국내 협업툴 최초로 MCP 서버 개발부터 ChatGPT·Claude 커넥터 등록까지 전 과정 진행. 30일 평균 도구 호출 70.1만 건, 오류율 2% 이하 (초기 10~20%에서 개선)
+- **OKR SaaS** — 기획을 제외하고 설계·개발·배포·운영 단독 담당. 90일 평균 활성 회사 949곳, 활성 사용자 1,487명
 - **사내 업무 자동화** — 교육 운영 관리와 지출결의 기한 알림 등 반복 업무 개선
 
 <details>
@@ -137,6 +138,7 @@ AI·개발 소식의 수집 → 중복 제거 → 분류·편집 → 발행을 �
 <details>
 <summary>수상·선정·교육</summary>
 
+- 2026 국가AI대상 서울특별시장상 (플로우 리패턴, 팀 수상, 2026.10)
 - 2025 AI_TOP_100 본선 진출
 - APEX Expert AI 파일럿 44명 중 3위 · 88/100점 (2026.08)
 - Upstage Solar Agent Partner Program Stage 1 선정 (2026.07)
